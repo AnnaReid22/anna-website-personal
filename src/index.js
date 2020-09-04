@@ -1,17 +1,41 @@
+import './fonts/Merriweather-Light.ttf';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import Home from './pages/Home';
+import AboutMe from './pages/AboutMe';
+import Reviews from './pages/Reviews';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import {Route, BrowserRouter as Router, Switch} from "react-router-dom";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+const routing = (
+    <div className = "Site">
+        <Router>
+            <div className="Site-content">
+            <Switch >
+                <Route exact path="/">
+                    <Home />
+                </Route>
+                <Route path="/Home">
+                    <Home />
+                </Route>
+                <Route path="/AboutMe">
+                    <AboutMe />
+                </Route>
+                <Route path="/Reviews">
+                    <Reviews />
+                </Route>
+                <Route path="/Portfolio">
+                    <Portfolio />
+                </Route>
+                <Route path="/Contact">
+                    <Contact />
+                </Route>
+            </Switch>
+            </ div>
+        </Router>  
+    </div>
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(routing, document.getElementById('root'));

@@ -1,0 +1,25 @@
+#home-page {
+    background-image: url("../images/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.labelContent{
+    padding-top:6em;
+    padding-left:2em;
+    display:flex;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    color: #E4F0EA;
+    text-decoration: none;
+    justify-content: flex-start;
+    
+}
+
+.name{
+    padding-left:0.7em;
+    font-family: 'Merriweather', serif;
+    font-size: 5em;
+    color: #E4F0EA;
+    text-decoration: none;
+}

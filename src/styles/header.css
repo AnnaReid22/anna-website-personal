@@ -1,0 +1,22 @@
+.header-outer{
+    background-color: #F4F4F4;
+    position:fixed;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 2em;
+  }
+.header-outer>img{
+    float: left;
+    position: relative;
+}
+
+.header-inner{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: #85A2A6;
+    text-decoration: none;
+    margin:15px;
+}
