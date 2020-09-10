@@ -16,15 +16,12 @@ class HeaderHome extends React.Component {
               <img src={require("../images/AR.png")} width="50" height="45"/>
           </Navbar.Brand>
 
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Link className="headerContent" href="/aboutMe">ABOUT</Nav.Link>
               <Nav.Link className="headerContent" href="/reviews">REVIEWS</Nav.Link>
               <Nav.Link className="headerContent" href="/portfolio">PORTFOLIO</Nav.Link>
               <Nav.Link className="headerContent" href="/contact">CONTACT</Nav.Link>
             </Nav>
-          </Navbar.Collapse>
         </Navbar>
       </div>
     );

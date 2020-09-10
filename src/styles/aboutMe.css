@@ -1,3 +1,5 @@
 #about-me{
     background-image: url("../images/background.png");
+    background-size: cover;
+    font-family: 'Tajawal', sans-serif;
 }

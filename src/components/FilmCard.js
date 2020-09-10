@@ -1,6 +1,6 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
-import {Row, Col, Button, Container} from 'react-bootstrap';
+import {Row, Col, Container} from 'react-bootstrap';
 
 class FilmCard extends React.Component {
     constructor(props) {
@@ -11,7 +11,7 @@ class FilmCard extends React.Component {
         <>
             <Container style={{width:"100%"}}>
                 
-                <Card style={{background: '#D9DDE2', marginBottom: "10px"}}>
+                <Card style={{background: '#f4f4f4', marginBottom: "10px"}}>
                 <Row>
                     <Col>
                     <Card.Img variant="top" src={this.props.image}/>
