@@ -5,49 +5,27 @@ import { withRouter } from 'react-router-dom';
 import "../styles/headerHome.css";
 import "../index.css";
 
-const linkToText = {
-  "/aboutMe" : "About Me",
-  "/reviews" : "Film Reviews",
-  "/portfolio" : "Portfolio", 
-  "/contact" : "Contact"
-};
-
 class HeaderHome extends React.Component {
-
-  getLink = (linkName) => {
-    const linkAt = this.props.location.pathname || "/home";
-    if (linkAt === linkName) {
-      return (
-        <Navbar.Brand 
-          href={linkName}
-          key={linkName}
-          className="ml-3">
-          { linkToText[linkName] }
-        </Navbar.Brand>
-      );
-    }
-
-    return (
-      <Nav.Link
-        className="headerContent"
-        href={linkName}
-        key={linkName}
-      >
-        { linkToText[linkName] }
-      </Nav.Link>
-    );
-  }
 
   render() {
     return (
       <div >
 
-        <Navbar className="header">
+        <Navbar expand="md" fixed="top" onSelect="test()">
+          <Navbar.Brand href="/">
+              <img src={require("../images/AR.png")} width="50" height="45"/>
+          </Navbar.Brand>
 
-          <Nav>
-            <div className="headerContent">{ Object.keys(linkToText).map(this.getLink)}</div>
-          </Nav>
-      </Navbar>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="ml-auto">
+              <Nav.Link className="headerContent" href="/aboutMe">ABOUT</Nav.Link>
+              <Nav.Link className="headerContent" href="/reviews">REVIEWS</Nav.Link>
+              <Nav.Link className="headerContent" href="/portfolio">PORTFOLIO</Nav.Link>
+              <Nav.Link className="headerContent" href="/contact">CONTACT</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
       </div>
     );
   }

@@ -6,11 +6,11 @@ import HeaderHome from "../components/HeaderHome.js"
 class Home extends React.Component {
     render() {
         return (
-            <div>
+            <div style={{overflowY: 'hidden'}}>
                 <HeaderHome />
-                <div id="home-page" className="page">
-                    <div className="labelContent">Hi! I'm</div>
-                    <div className="name">Anna Reid</div>
+                <div id="home-page" className="page-home">
+                    <div className="labelContent">HELLO! I'M</div>
+                    <div className="name">ANNA REID</div>
                 </div>
             </div>
         );

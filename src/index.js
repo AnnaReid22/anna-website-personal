@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './fonts/Merriweather-Light.ttf';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -34,7 +35,7 @@ const routing = (
                 </Route>
             </Switch>
             </ div>
-        </Router>  
+        </Router>
     </div>
 );
 

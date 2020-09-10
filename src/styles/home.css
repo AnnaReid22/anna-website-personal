@@ -1,25 +1,26 @@
 #home-page {
     background-image: url("../images/bg.jpeg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center top;
 }
 
 .labelContent{
     padding-top:6em;
     padding-left:2em;
     display:flex;
-    font-family: 'Merriweather', serif;
     font-size: 2em;
-    color: #E4F0EA;
+    font-family: 'Tajawal', sans-serif;
+    color: #E4F0EA !important;
     text-decoration: none;
     justify-content: flex-start;
     
 }
 
 .name{
+    font-family: 'Tajawal', sans-serif;
     padding-left:0.7em;
-    font-family: 'Merriweather', serif;
     font-size: 5em;
-    color: #E4F0EA;
+    color: #E4F0EA !important;
     text-decoration: none;
 }

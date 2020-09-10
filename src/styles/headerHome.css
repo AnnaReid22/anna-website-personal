@@ -1,18 +1,9 @@
-.header{
-    background:transparent;
-    position:fixed;
-    box-sizing: border-box;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding: 1em;
-    margin-bottom: 2em;
-  }
+
 
 .headerContent{
-    font-family: 'Merriweather', serif;
+    color: #E4F0EA !important;
+    font-family: 'Tajawal', sans-serif;
     font-size: 20px;
-    color: #E4F0EA;
     text-decoration: none;
-    margin:15px;
+    margin-right: 15px;
 }
