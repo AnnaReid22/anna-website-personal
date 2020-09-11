@@ -30,7 +30,7 @@ class AboutMe extends React.Component {
                         className="vertical-timeline-element"
                         contentStyle={{ background: '#f4f4f4', color: '#506163' }}
                         contentArrowStyle={{ borderRight: '7px solid  #506163' }}
-                        date="August 2019 - June 2023"
+                        date="June 2020 - July 2020"
                         iconStyle={{ background: '#EBA4A6', color: '#fff' }}
                         icon={<FaBook />}
                     >
