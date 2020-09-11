@@ -1,7 +1,7 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
 import "../styles/contact.css";
-import "../index.css";
+import "../styles/index.css";
 import Header from "../components/Header.js"
 import Footer from "../components/Footer.js"
 

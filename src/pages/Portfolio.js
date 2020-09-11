@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/contact.css";
-import "../index.css";
+import "../styles/index.css";
 import Header from "../components/Header.js"
 import Footer from "../components/Footer.js"
 import PortfolioCard from '../components/PortfolioCard';

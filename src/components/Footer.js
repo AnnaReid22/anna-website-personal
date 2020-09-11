@@ -1,6 +1,6 @@
 import React from "react";
 import { SocialIcon } from 'react-social-icons';
-import '../index.css';
+import '../styles/index.css';
 
 const style = {
     position: 'relative',

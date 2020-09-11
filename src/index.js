@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './fonts/Merriweather-Light.ttf';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './styles/index.css';
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
 import Reviews from './pages/Reviews';

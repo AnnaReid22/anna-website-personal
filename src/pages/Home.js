@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/home.css";
-import "../index.css";
+import "../styles/index.css";
 import HeaderHome from "../components/HeaderHome.js"
 
 class Home extends React.Component {

@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { withRouter } from 'react-router-dom';
 import "../styles/headerHome.css";
-import "../index.css";
+import "../styles/index.css";
 
 class HeaderHome extends React.Component {
   render() {
