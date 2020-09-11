@@ -16,7 +16,7 @@ class Contact extends React.Component {
                 </Container>
                 <Container style={{width:"100%", marginTop: "50px", marginBottom: "100px"}}>
                     <div style={{marginBottom: "50px", textAlign:"center" }}>
-                        <img width="50%" src={require("../images/coder.png")} />
+                        <img width="50%" src={require("../images/coder.png")} alt="anna"/>
                     </div>
                 </Container>
                 <Footer />

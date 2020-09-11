@@ -6,9 +6,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 class PortfolioCard extends React.Component {
-    constructor(props) {
-        super(props)
-    }
   render() {
     const settings = {
         dots: true,
@@ -26,13 +23,13 @@ class PortfolioCard extends React.Component {
                         <div>
                             <Slider {...settings}>
                                 <div>
-                                    <img width="100%" src={this.props.image1}></img>
+                                    <img width="100%" src={this.props.image1} alt="1"></img>
                                 </div>
                                 <div>
-                                    <img width="100%" src={this.props.image2}></img>
+                                    <img width="100%" src={this.props.image2} alt="2"></img>
                                 </div>
                                 <div>
-                                    <img width="100%" src={this.props.image3}></img>
+                                    <img width="100%" src={this.props.image3} alt="3"></img>
                                 </div>
                             </Slider>
                         </div>
