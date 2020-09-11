@@ -2,9 +2,6 @@
   "name": "anna-website-personal",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "12.x"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -20,10 +17,8 @@
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
     "start": "react-scripts start",
-    "build": "ng build",
-    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
