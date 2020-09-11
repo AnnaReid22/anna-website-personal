@@ -6,16 +6,13 @@ import "../styles/header.css";
 import "../index.css";
 
 class Header extends React.Component {
-
   render() {
     return (
       <div >
-
       <Navbar id="site-header" expand="md" fixed="top" onSelect="test()">
         <Navbar.Brand href="/">
             <img src={require("../images/AR.png")} width="50" height="45"/>
         </Navbar.Brand>
-
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">

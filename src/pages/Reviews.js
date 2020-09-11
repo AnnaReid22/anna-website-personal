@@ -518,22 +518,16 @@ const filmDetails = [
       }
   ]
 class Contact extends React.Component {
-
-
     renderReviews() {
         let filmCards = filmDetails.map((content) => {
             return <FilmCard film={content.film} url={content.url} image={content.image} date={content.date} reviewp1={content.reviewp1} reviewp2={content.reviewp2} reviewp3={content.reviewp3} reviewp4={content.reviewp4} reviewp5={content.reviewp5}/>
         });
-  
         return (
           <>
               {filmCards}
           </>
         );
       }
-
-
-
     render() {
         return (
             <div id="reviews">
@@ -544,7 +538,6 @@ class Contact extends React.Component {
                 {this.renderReviews()}
                 <Footer />
             </div>
-            
         );
     }
 }

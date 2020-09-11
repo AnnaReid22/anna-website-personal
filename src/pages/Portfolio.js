@@ -1,5 +1,4 @@
 import React from "react";
-import Slider from "react-slick";
 import "../styles/contact.css";
 import "../index.css";
 import Header from "../components/Header.js"
@@ -32,7 +31,7 @@ const portfolio = [
     {
         title: "Object-Oriented Programming Game",
         date: "Summer 2020",
-        description: "This year, I got the opportunity to work with my amazing director members to help redesign the Hack4Impact Cal Poly Website. Many of the skills I learned I could then apply to this website design. You can see that website here: https://calpoly.hack4impact.org/",
+        description: "This was a classroom-based project where I refactored and redesigned Java code while learning object-oriented programming principles.  For the final project, I worked with a partner to make the code unique, as well as add functionality such as changing entities and world components that interact.",
         image1: t1,
         image2: t2,
         image3: t3
@@ -40,7 +39,7 @@ const portfolio = [
     {
         title: "Hack4Impact Cal Poly Website",
         date: "Spring 2020",
-        description: "This year, I got the opportunity to work with my amazing director members to help redesign the Hack4Impact Cal Poly Website. Many of the skills I learned I could then apply to this website design. You can see that website here: https://calpoly.hack4impact.org/",
+        description: "This year, I got the opportunity to work with my amazing Hack4Impact director team to help redesign the Hack4Impact Cal Poly Website. We used React.js and Next.js. Many of the skills I learned I could then apply to this website design. You can see the Hack4Impact Cal Poly website here: https://calpoly.hack4impact.org/",
         image1: h1,
         image2: h2,
         image3: h3
@@ -48,7 +47,7 @@ const portfolio = [
     {
         title: "Environmental Center of San Luis Obispo Beach Cleanup Database",
         date: "Winter 2019 - Spring 2020",
-        description: "I got the opportunity to help design a large project for a club, Hack4Impact, at Cal Poly. I learned so much and am so thankful for the opportunity!",
+        description: "I got the opportunity to help design a large project for a club, Hack4Impact Cal Poly, during my freshman year of college. I worked mainly with the frontend, and it was so interesting to learn about all of the interconnected components that go into website design. In addition, I got to help build this website for a nonprofit in SLO county, which was an incredible experience. I learned so much and am so thankful for the opportunity!",
         image1: e1,
         image2: e2,
         image3: e3
@@ -56,7 +55,7 @@ const portfolio = [
     {
         title: "Film Organization UI",
         date: "Spring 2019",
-        description: "I began the first version of this website in 2018 using HTML, CSS, and JavaScript.",
+        description: "I designed this User Interface in my programming class in high school as a part of the IB Computer Science Curriculum. I worked with a client to design this project and meet their needs. They wanted an organizational interface that could sort their movie titles by name, format, and genre, as well as a sum total functionality for the stored information. I programmed this user interface in Java.",
         image1: f1,
         image2: f2,
         image3: f3
@@ -64,7 +63,7 @@ const portfolio = [
     {
         title: "Original Film Review Website",
         date: "Summer 2018",
-        description: "I began the first version of this website in 2018 using HTML, CSS, and JavaScript.",
+        description: "I began the first version of this website in 2018 using HTML, CSS, and JavaScript. This was my first exposure to web development. In addition, I created functionality to use the Marvel API, which I could use to search character names. Once I learned about React, I decided that I wanted to redesign the website and make it look better.",
         image1: w1,
         image2: w2,
         image3: w3
@@ -72,7 +71,7 @@ const portfolio = [
     {
         title: "Blender Animation",
         date: "Summer 2018",
-        description: "In my summer of 2018, I decided to learn some basic animation skills. I did a few intro courses and learned some basics.",
+        description: "In my summer of 2018, I decided to learn some animation skills. I did a few intro courses and learned some basics.",
         image1: b1,
         image2: b2,
         image3: b3
@@ -92,25 +91,19 @@ class Portfolio extends React.Component {
         let portfolioCards = portfolio.map((content) => {
             return <PortfolioCard title={content.title} date={content.date} description={content.description} image1={content.image1} image2={content.image2} image3={content.image3}/>
         });
-  
         return (
           <>
               {portfolioCards}
           </>
         );
       }
-
-
-
     render() {
         return (
             <div id="contact" className="page">
                 <Header />
-
                 {this.renderPortfolio()}
                 <Footer />
             </div>
-
         );
     }
 }

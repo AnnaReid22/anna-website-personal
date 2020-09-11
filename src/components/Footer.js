@@ -11,8 +11,6 @@ const style = {
     padding:"5px"
 }
 
-
-
 class Footer extends React.Component {
   render() {
     return(
@@ -25,8 +23,4 @@ class Footer extends React.Component {
   )
   }
 }
-
-
-
-
 export default Footer;

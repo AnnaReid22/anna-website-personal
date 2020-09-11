@@ -6,16 +6,13 @@ import "../styles/headerHome.css";
 import "../index.css";
 
 class HeaderHome extends React.Component {
-
   render() {
     return (
       <div >
-
         <Navbar expand="md" fixed="top" onSelect="test()">
           <Navbar.Brand href="/">
               <img src={require("../images/AR.png")} width="50" height="45"/>
           </Navbar.Brand>
-
             <Nav className="ml-auto">
               <Nav.Link className="headerContent" href="/aboutMe">ABOUT</Nav.Link>
               <Nav.Link className="headerContent" href="/reviews">REVIEWS</Nav.Link>
