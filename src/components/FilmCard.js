@@ -3,9 +3,6 @@ import Card from 'react-bootstrap/Card';
 import {Row, Col, Container} from 'react-bootstrap';
 
 class FilmCard extends React.Component {
-    constructor(props) {
-        super(props)
-    }
   render() {
     return (
         <>

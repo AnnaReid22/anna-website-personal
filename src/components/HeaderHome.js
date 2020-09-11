@@ -11,7 +11,7 @@ class HeaderHome extends React.Component {
       <div >
         <Navbar expand="md" fixed="top" onSelect="test()">
           <Navbar.Brand href="/">
-              <img src={require("../images/AR.png")} width="50" height="45"/>
+              <img src={require("../images/AR.png")} width="50" height="45" alt="logo"/>
           </Navbar.Brand>
             <Nav className="ml-auto">
               <Nav.Link className="headerContent" href="/aboutMe">ABOUT</Nav.Link>

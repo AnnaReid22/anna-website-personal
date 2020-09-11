@@ -11,7 +11,7 @@ class Header extends React.Component {
       <div >
       <Navbar id="site-header" expand="md" fixed="top" onSelect="test()">
         <Navbar.Brand href="/">
-            <img src={require("../images/AR.png")} width="50" height="45"/>
+            <img src={require("../images/AR.png")} width="50" height="45" alt="logo"/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
