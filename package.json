@@ -16,6 +16,10 @@
     "react-vertical-timeline-component": "^3.0.2",
     "slick-carousel": "^1.8.1"
   },
+  "engines": {
+    "npm": "6.x",
+    "node": "12.x"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
