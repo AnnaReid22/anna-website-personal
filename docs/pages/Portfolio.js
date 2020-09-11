@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/contact.css";
 import "../index.css";
-import Header from "../components/Header.js"
-import Footer from "../components/Footer.js"
+import Header from "../components/Header.js.js"
+import Footer from "../components/Footer.js.js"
 import PortfolioCard from '../components/PortfolioCard';
 import polarBear2 from '../images/portfolioImages/polarBear2.png';
 import polarBear3 from '../images/portfolioImages/polarbear3.png';
