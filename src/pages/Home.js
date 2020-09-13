@@ -9,8 +9,8 @@ class Home extends React.Component {
             <div style={{overflowY: 'hidden'}}>
                 <HeaderHome />
                 <div id="home-page" className="page-home">
-                    <div className="labelContent">HELLO! I'M</div>
-                    <div className="name">ANNA REID</div>
+                    <div className="labelContent"><b>HELLO! I'M</b></div>
+                    <div className="name"><b>ANNA REID</b></div>
                 </div>
             </div>
         );

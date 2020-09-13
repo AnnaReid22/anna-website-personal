@@ -6,7 +6,7 @@
 }
 
 .labelContent{
-    padding-top:13em;
+    padding-top:12em;
     padding-left:2em;
     display:flex;
     font-size: 2em;
@@ -19,8 +19,8 @@
 
 .name{
     font-family: 'Tajawal', sans-serif;
-    padding-left:0.7em;
-    font-size: 5em;
+    padding-left:0.9em;
+    font-size: 4em;
     color: #E4F0EA !important;
     text-decoration: none;
 }
