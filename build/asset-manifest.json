@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.50105dc2.chunk.css",
-    "main.js": "/static/js/main.204363ff.chunk.js",
-    "main.js.map": "/static/js/main.204363ff.chunk.js.map",
+    "main.css": "/static/css/main.843cd12d.chunk.css",
+    "main.js": "/static/js/main.77a54841.chunk.js",
+    "main.js.map": "/static/js/main.77a54841.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e79fb3f4.js",
     "runtime-main.js.map": "/static/js/runtime-main.e79fb3f4.js.map",
-    "static/css/2.813434cd.chunk.css": "/static/css/2.813434cd.chunk.css",
-    "static/js/2.93da021b.chunk.js": "/static/js/2.93da021b.chunk.js",
-    "static/js/2.93da021b.chunk.js.map": "/static/js/2.93da021b.chunk.js.map",
+    "static/css/2.bc1c82f6.chunk.css": "/static/css/2.bc1c82f6.chunk.css",
+    "static/js/2.7451a4ac.chunk.js": "/static/js/2.7451a4ac.chunk.js",
+    "static/js/2.7451a4ac.chunk.js.map": "/static/js/2.7451a4ac.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.62cab06d2636204588b08553d113daac.js": "/precache-manifest.62cab06d2636204588b08553d113daac.js",
+    "precache-manifest.218f630d4a56607033a3b29eb5b2f52f.js": "/precache-manifest.218f630d4a56607033a3b29eb5b2f52f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.813434cd.chunk.css.map": "/static/css/2.813434cd.chunk.css.map",
-    "static/css/main.50105dc2.chunk.css.map": "/static/css/main.50105dc2.chunk.css.map",
-    "static/js/2.93da021b.chunk.js.LICENSE.txt": "/static/js/2.93da021b.chunk.js.LICENSE.txt",
-    "static/media/AR.png": "/static/media/AR.b0c9b791.png",
+    "static/css/2.bc1c82f6.chunk.css.map": "/static/css/2.bc1c82f6.chunk.css.map",
+    "static/css/main.843cd12d.chunk.css.map": "/static/css/main.843cd12d.chunk.css.map",
+    "static/js/2.7451a4ac.chunk.js.LICENSE.txt": "/static/js/2.7451a4ac.chunk.js.LICENSE.txt",
+    "static/media/AR.png": "/static/media/AR.28f48c4d.png",
     "static/media/Deadpool2.jpg": "/static/media/Deadpool2.5618f22f.jpg",
     "static/media/MPR.jpg": "/static/media/MPR.50082870.jpg",
     "static/media/Merriweather-Light.ttf": "/static/media/Merriweather-Light.9341552d.ttf",
@@ -93,9 +93,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e79fb3f4.js",
-    "static/css/2.813434cd.chunk.css",
-    "static/js/2.93da021b.chunk.js",
-    "static/css/main.50105dc2.chunk.css",
-    "static/js/main.204363ff.chunk.js"
+    "static/css/2.bc1c82f6.chunk.css",
+    "static/js/2.7451a4ac.chunk.js",
+    "static/css/main.843cd12d.chunk.css",
+    "static/js/main.77a54841.chunk.js"
   ]
 }
