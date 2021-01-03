@@ -49,8 +49,8 @@ class AboutMe extends React.Component {
                     >
                         <h3 className="vertical-timeline-element-title">California Polytechnic State University</h3>
                         <h4 className="vertical-timeline-element-subtitle">San Luis Obispo, CA</h4>
-                        <p>Bachelor of Computer Science, Minor in Computing for Interactive Arts and Concentration in Interactive Entertainment</p>
-                        <p>Cumulative GPA: Unweighted 3.920 (Dean's List 3/3 Quarters)</p>
+                        <p>Bachelor of Computer Science, Minor in Computing for Interactive Arts</p>
+                        <p>Cumulative GPA: Unweighted 3.937 (Dean's List 4/4 Quarters)</p>
                         <p>Women Involved in Software and Hardware Webmaster, Hack4Impact Cal Poly Finance Director, Society of Women Engineers, Cal Poly Quarter Plus Program</p>
                         <img width="100%" src={require('../images/cp.jpg')} alt="GWC"></img>
                     </VerticalTimelineElement>
