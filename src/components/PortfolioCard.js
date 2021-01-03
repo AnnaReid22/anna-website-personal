@@ -23,6 +23,7 @@ class PortfolioCard extends React.Component {
                         <div>
                             <Slider {...settings}>
                                 <div>
+<<<<<<< HEAD
                                     <img width="100%" src={this.props.image1} alt="1"></img>
                                 </div>
                                 <div>
@@ -30,6 +31,15 @@ class PortfolioCard extends React.Component {
                                 </div>
                                 <div>
                                     <img width="100%" src={this.props.image3} alt="3"></img>
+=======
+                                    <img width="100%" src={this.props.image1} alt="img1"></img>
+                                </div>
+                                <div>
+                                    <img width="100%" src={this.props.image2} alt="img2"></img>
+                                </div>
+                                <div>
+                                    <img width="100%" src={this.props.image3} alt="img3"></img>
+>>>>>>> 05fe6bee0785ac9b654ed373674bf8b0bfa91601
                                 </div>
                             </Slider>
                         </div>

@@ -2,6 +2,9 @@
   "name": "anna-website-personal",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -14,15 +17,30 @@
     "react-icons": "^3.11.0",
     "react-mail-form": "^2.1.0",
     "react-router-dom": "^5.2.0",
+<<<<<<< HEAD
     "react-scripts": "3.4.1",
+=======
+    "react-scripts": "^3.4.3",
+>>>>>>> 05fe6bee0785ac9b654ed373674bf8b0bfa91601
     "react-slick": "^0.27.11",
     "react-vertical-timeline-component": "^3.0.2",
     "serve": "^11.3.2",
     "slick-carousel": "^1.8.1"
   },
+  "engines": {
+    "npm": "6.x",
+    "node": "12.x"
+  },
   "scripts": {
+<<<<<<< HEAD
 	"start": "react-scripts start",
 	"build": "react-scripts build",
+=======
+    "predeploy": "npm run build",
+    "start": "react-scripts start",
+    "build": "ng build",
+    "deploy": "gh-pages -d build",
+>>>>>>> 05fe6bee0785ac9b654ed373674bf8b0bfa91601
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
