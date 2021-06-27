@@ -72,9 +72,6 @@ const customStyles = {
         mozBoxShadow: '0px 5px 5px #85A2A6'
     },
 };
-const thumbnailStyles = {
-
-};
 
 const filmDetails = [
     {
@@ -83,7 +80,7 @@ const filmDetails = [
         caption: "Marriage Story",
         thumbnail: Marriage,
         src: Marriage,
-        tags: [{ value: "Marriage Story", title: "Marriage Story" }],
+        tags: [{value: "Marriage Story", title: "Marriage Story" }],
         date: "January 2019",
         reviewp1: "I have a lot of conflicting feelings about \n\nthis movie. Now, I’d first like to address how much attention this movie got. There were plenty of internet memes about this one, from Scarlett Johnanson’s dancing to Pluto and Mickey voiceovers of the fight scene. Aside from that, it was nominated for a total of six Oscars, including Best Motion Picture of the Year and Best Screenplay. Not only was it recognized for its filmic achievements, but the cast itself was incredible. Starring Scarlett Johnanson, Adam Driver, and Laura Dern (all three of which were nominated for Oscars), it told the story of a modern failing marriage. To make matters worse, the two main characters, Nicole (Johnanson) and Charlie (Driver), have a son together who must also endure the challenges that the divorce brings.\n I’d first like to address that I’ve never had a divorce. I’ve never been married, either. In addition, I’ve never had much firsthand experience with divorces. It’s fair to say that I don’t know much about the emotions presented in this film, or how accurate they are to real peoples’ lives. Thus, I can’t speak to that, and I don’t have much input on it. However, I will say that I was pretty disturbed by the way this movie twisted the actions of the characters. Clearly, the divorce lawyers wanted to paint the opposing party as a villain, bringing out the worst in both Charlie and Nicole.",
         reviewp3: "The acting in this film was very impressive. There is definitely a reason why the actors gained so much attention at the Oscars for it. Charlie and Nicole’s dramatic fight, ending with Charlie punching a wall and saying that he wished that Nicole was dead, was quite disturbing and unsettling. It made me feel as if I was watching a real mental breakdown, showing the talent of both Driver and Johannson. It seemed that divorce brought the worst out of both of these characters.",
@@ -671,7 +668,6 @@ const filmDetails = [
 ]
 
 
-
 function Reviews() {
     const [modalIsOpen, setIsOpen] = React.useState(false);
     const [currentImage, setCurrentImage] = React.useState(0);
@@ -715,7 +711,6 @@ function Reviews() {
                     enableImageSelection={false}
                     enableLightbox={true}
                     onClickThumbnail={openModal}
-                    customOverlay={thumbnailStyles}
                 />
             </Container>
         </div>

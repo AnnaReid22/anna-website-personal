@@ -5,7 +5,7 @@ import Header from "../components/Header.js"
 import Footer from "../components/Footer.js"
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { FaBook, FaDesktop, FaLightbulb, FaDollarSign } from 'react-icons/fa';
+import { FaBook, FaDesktop, FaLightbulb, FaDollarSign, FaCodeBranch, FaHandHolding, FaFilm, FaTerminal } from 'react-icons/fa';
 
 class AboutMe extends React.Component {
     render() {
@@ -17,97 +17,49 @@ class AboutMe extends React.Component {
                         className="vertical-timeline-element"
                         contentStyle={{ background: '#f4f4f4', color: '#506163' }}
                         contentArrowStyle={{ borderRight: '7px solid  #506163' }}
-                        date="Summer 2020"
+                        date="Spring 2021 - Present"
                         iconStyle={{ background: '#4aa2b7', color: '#fff' }}
-                        icon={<FaLightbulb />}
+                        icon={<FaHandHolding />}
                     >
-                        <h4 className="vertical-timeline-element-title">Quarter Plus Learning Assistant</h4>
+                        <h4 className="vertical-timeline-element-title">Hack4Impact Cal Poly Director of Community</h4>
                         <h4 className="vertical-timeline-element-subtitle">San Luis Obispo, CA</h4>
-                        <p> Designed study sessions and activities for 300 first year students in an accelerated summer program over Zoom</p>
-                        {/* <div style={{textAlign: 'center'}}>
-                        <img width="50%" src={require('../images/quarter.png')} alt="Q+"></img>
-                        </div> */}
+                        <p> Working to coordinate events, plan volunteer activities, and work on the Hack4Impact Cal Poly board to promote a positive club experience for all members.</p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element"
                         contentStyle={{ background: '#f4f4f4', color: '#506163' }}
                         contentArrowStyle={{ borderRight: '7px solid  #506163' }}
-                        date="Summer 2020"
+                        date="Spring 2021 - Present"
                         iconStyle={{ background: '#4aa2b7', color: '#fff' }}
-                        icon={<FaLightbulb />}
+                        icon={<FaFilm />}
                     >
                         <h4 className="vertical-timeline-element-title">Cal Poly Animation Club Vice President</h4>
                         <h4 className="vertical-timeline-element-subtitle">San Luis Obispo, CA</h4>
-                        <p> Designed study sessions and activities for 300 first year students in an accelerated summer program over Zoom</p>
-                        {/* <div style={{textAlign: 'center'}}>
-                        <img width="50%" src={require('../images/quarter.png')} alt="Q+"></img>
-                        </div> */}
+                        <p> Helped in the creation of the new Cal Poly Animation Club, as well as working to coordinate and manage events for the upcoming school year.</p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element"
                         contentStyle={{ background: '#f4f4f4', color: '#506163' }}
                         contentArrowStyle={{ borderRight: '7px solid  #506163' }}
-                        date="Summer 2020"
+                        date="Winter 2020 - Summer 2021"
                         iconStyle={{ background: '#4aa2b7', color: '#fff' }}
-                        icon={<FaLightbulb />}
+                        icon={<FaCodeBranch />}
                     >
                         <h4 className="vertical-timeline-element-title">Hack4Impact Technical Lead</h4>
                         <h4 className="vertical-timeline-element-subtitle">San Luis Obispo, CA</h4>
-                        <p> Designed study sessions and activities for 300 first year students in an accelerated summer program over Zoom</p>
-                        {/* <div style={{textAlign: 'center'}}>
-                        <img width="50%" src={require('../images/quarter.png')} alt="Q+"></img>
-                        </div> */}
+                        <p> Led 7 programmers in the development of a full stack MERN web application called Happy Hats for Kids in Hospitals. </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element"
                         contentStyle={{ background: '#f4f4f4', color: '#506163' }}
                         contentArrowStyle={{ borderRight: '7px solid  #506163' }}
-                        date="Summer 2020"
+                        date="Fall 2020"
                         iconStyle={{ background: '#4aa2b7', color: '#fff' }}
-                        icon={<FaLightbulb />}
+                        icon={<FaTerminal />}
                     >
                         <h4 className="vertical-timeline-element-title">Grace Hopper Conference 2020</h4>
                         <h4 className="vertical-timeline-element-subtitle">San Luis Obispo, CA</h4>
-                        <p> Designed study sessions and activities for 300 first year students in an accelerated summer program over Zoom</p>
-                        {/* <div style={{textAlign: 'center'}}>
-                        <img width="50%" src={require('../images/quarter.png')} alt="Q+"></img>
-                        </div> */}
-                    </VerticalTimelineElement>
-                    <VerticalTimelineElement
-                        className="vertical-timeline-element"
-                        contentStyle={{ background: '#f4f4f4', color: '#506163' }}
-                        contentArrowStyle={{ borderRight: '7px solid  #506163' }}
-                        date="Summer 2020"
-                        iconStyle={{ background: '#4aa2b7', color: '#fff' }}
-                        icon={<FaDollarSign />}
-                    >
-                        <h4 className="vertical-timeline-element-title">Hack4Impact Director of Finance</h4>
-                        <h4 className="vertical-timeline-element-subtitle">San Luis Obispo, CA</h4>
-                        <p> Organized and maintained all finances, coordinated fundraisers, and met on a weekly basis with the director board for Hack4Impact Cal Poly</p>
-                    </VerticalTimelineElement>
-                    <VerticalTimelineElement
-                        className="vertical-timeline-element"
-                        contentStyle={{ background: '#f4f4f4', color: '#506163' }}
-                        contentArrowStyle={{ borderRight: '7px solid  #506163' }}
-                        date="Spring 2020"
-                        iconStyle={{ background: '#4aa2b7', color: '#fff' }}
-                        icon={<FaDesktop />}
-                    >
-                        <h4 className="vertical-timeline-element-title">WISH Webmaster</h4>
-                        <h4 className="vertical-timeline-element-subtitle">San Luis Obispo, CA</h4>
-                        <p> Designed and deployed new WISH Cal Poly website, seen at <a href="https://wishcalpoly.com/" target="_blank">wishcalpoly.com</a></p>
-                    </VerticalTimelineElement>
-                    <VerticalTimelineElement
-                        className="vertical-timeline-element"
-                        contentStyle={{ background: '#f4f4f4', color: '#506163' }}
-                        contentArrowStyle={{ borderRight: '7px solid  #506163' }}
-                        date="Summer 2020"
-                        iconStyle={{ background: '#4aa2b7', color: '#fff' }}
-                        icon={<FaLightbulb />}
-                    >
-                        <h4 className="vertical-timeline-element-title">Quarter Plus Learning Assistant</h4>
-                        <h4 className="vertical-timeline-element-subtitle">San Luis Obispo, CA</h4>
-                        <p> Designed study sessions and activities for 300 first year students in an accelerated summer program over Zoom</p>
+                        <p> Attended the respected Grace Hopper Conference virtually, watching guest speakers and participating in various events. </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element"
@@ -120,6 +72,42 @@ class AboutMe extends React.Component {
                         <h4 className="vertical-timeline-element-title">AT&T Externship</h4>
                         <h4 className="vertical-timeline-element-subtitle">Bothell, WA</h4>
                         <p>80 hours of coursework covering various topics including media, communication, design, machine learning, and the Internet of Things</p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element"
+                        contentStyle={{ background: '#f4f4f4', color: '#506163' }}
+                        contentArrowStyle={{ borderRight: '7px solid  #506163' }}
+                        date="Spring 2020 - Spring 2021"
+                        iconStyle={{ background: '#4aa2b7', color: '#fff' }}
+                        icon={<FaDollarSign />}
+                    >
+                        <h4 className="vertical-timeline-element-title">Hack4Impact Director of Finance</h4>
+                        <h4 className="vertical-timeline-element-subtitle">San Luis Obispo, CA</h4>
+                        <p> Organized and maintained all finances, coordinated fundraisers, and met on a weekly basis with the director board for Hack4Impact Cal Poly</p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element"
+                        contentStyle={{ background: '#f4f4f4', color: '#506163' }}
+                        contentArrowStyle={{ borderRight: '7px solid  #506163' }}
+                        date="Spring 2020 - Spring 2021"
+                        iconStyle={{ background: '#4aa2b7', color: '#fff' }}
+                        icon={<FaDesktop />}
+                    >
+                        <h4 className="vertical-timeline-element-title">WISH Webmaster</h4>
+                        <h4 className="vertical-timeline-element-subtitle">San Luis Obispo, CA</h4>
+                        <p> Designed and deployed new WISH Cal Poly website, seen at <a rel="noopener noreferrer" href="https://wishcalpoly.com/" target="_blank">wishcalpoly.com</a></p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element"
+                        contentStyle={{ background: '#f4f4f4', color: '#506163' }}
+                        contentArrowStyle={{ borderRight: '7px solid  #506163' }}
+                        date="Summer 2020"
+                        iconStyle={{ background: '#4aa2b7', color: '#fff' }}
+                        icon={<FaLightbulb />}
+                    >
+                        <h4 className="vertical-timeline-element-title">Quarter Plus Learning Assistant</h4>
+                        <h4 className="vertical-timeline-element-subtitle">San Luis Obispo, CA</h4>
+                        <p> Designed study sessions and activities for 300 first year students in an accelerated summer program over Zoom</p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element"
