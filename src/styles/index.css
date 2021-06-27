@@ -36,11 +36,12 @@ body {
   width: 25em;
 }
 
-h1, p, small{
+h1, h2, h3, p, small{
   font-family: 'Tajawal', sans-serif;
   text-align: center;
   color: #005475;
 }
+
 
 .page-home {
   width: 100vw;

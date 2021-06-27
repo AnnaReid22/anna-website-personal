@@ -5,7 +5,7 @@ import '../styles/index.css';
 const style = {
     position: 'relative',
     width: '100%',
-    backgroundColor: '#EBA4A6',
+    backgroundColor: '#a2e0f0',
     color: 'white',
     textAlign: 'center',
     padding:"5px"

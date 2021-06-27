@@ -1,4 +1,9 @@
 #reviews{
-    background-image: url("../images/background.png");
     background-size: cover;
 }
+.date{
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+    color: #005475;
+  }
+  
