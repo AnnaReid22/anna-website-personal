@@ -92,7 +92,7 @@ class AboutMe extends React.Component {
                     >
                         <h4 className="vertical-timeline-element-title">Hack4Impact Technical Lead</h4>
                         <h4 className="vertical-timeline-element-subtitle">San Luis Obispo, CA</h4>
-                        <p> Led 7 programmers in the development of a full stack MERN web application called Happy Hats for Kids in Hospitals. </p>
+                        <p> Led 7 programmers in the development of a full stack MERN web application for a nonprofit called Happy Hats for Kids in Hospitals. </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element"
@@ -165,7 +165,7 @@ class AboutMe extends React.Component {
                         <h4 className="vertical-timeline-element-title">California Polytechnic State University</h4>
                         <h4 className="vertical-timeline-element-subtitle">San Luis Obispo, CA</h4>
                         <p>Bachelor of Computer Science, Minor in Computing for Interactive Arts</p>
-                        <p>Cumulative GPA: Unweighted 3.952 (Dean's List 4/4 Quarters)</p>
+                        <p>Cumulative GPA: Unweighted 3.952 (Dean's List 6/6 Quarters)</p>
                         <p>Women Involved in Software and Hardware Webmaster, Hack4Impact Cal Poly Director of Community, Society of Women Engineers, Cal Poly Quarter Plus Program</p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
