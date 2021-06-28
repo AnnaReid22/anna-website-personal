@@ -19,6 +19,7 @@ class Header extends React.Component {
             <Nav.Link className="header-text" href="/aboutMe">ABOUT</Nav.Link>
             <Nav.Link className="header-text" href="/reviews">REVIEWS</Nav.Link>
             <Nav.Link className="header-text" href="/portfolio">PORTFOLIO</Nav.Link>
+            <Nav.Link className="header-text" href="/resume">RESUME</Nav.Link>
             <Nav.Link className="header-text" href="/contact">CONTACT</Nav.Link>
           </Nav>
         </Navbar.Collapse>

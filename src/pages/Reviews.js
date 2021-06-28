@@ -5,7 +5,6 @@ import "../styles/reviews.css";
 import "../styles/index.css";
 import Button from 'react-bootstrap/Button'
 import Header from "../components/Header.js"
-import Footer from "../components/Footer.js"
 import Incredibles2 from '../images/filmImages/incredibles2.jpg';
 import TheDM from '../images/filmImages/theDM.jpg';
 import Ex from '../images/filmImages/exmachina.jpg';
@@ -64,7 +63,7 @@ const customStyles = {
         marginRight: '-50%',
         transform: 'translate(-50%, -50%)',
         width: '85%',
-        marginTop: '5%',
+        marginTop: '2%',
         maxHeight: 'calc(100vh - 210px)',
         overflowY: 'auto',
         boxShadow: '0px 5px 5px #85A2A6',
@@ -684,9 +683,9 @@ function Reviews() {
     return (
         <div id="reviews">
             <Header />
-            <Container style={{ marginTop: "50px", marginBottom: "50px" }}>
+            <div style={{ marginTop: "70px", paddingBottom: "50px", marginBottom: "40px" }}>
                 <h1>Film Reviews</h1>
-            </Container>
+            </div>
             <Container>
                 <div>
                     <Modal

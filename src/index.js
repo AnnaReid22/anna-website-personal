@@ -8,6 +8,7 @@ import AboutMe from './pages/AboutMe';
 import Reviews from './pages/Reviews';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 import {Route, BrowserRouter as Router, Switch} from "react-router-dom";
 
 const routing = (
@@ -32,6 +33,9 @@ const routing = (
                 </Route>
                 <Route path="/Contact">
                     <Contact />
+                </Route>
+                <Route path="/Resume">
+                    <Resume />
                 </Route>
             </Switch>
             </ div>

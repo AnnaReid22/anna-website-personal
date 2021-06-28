@@ -3,15 +3,60 @@ import "../styles/aboutMe.css";
 import "../styles/index.css";
 import Header from "../components/Header.js"
 import Footer from "../components/Footer.js"
+import { Link } from "react-router-dom";
+import { Container, Col, Row, Button } from "react-bootstrap";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FaBook, FaDesktop, FaLightbulb, FaDollarSign, FaCodeBranch, FaHandHolding, FaFilm, FaTerminal } from 'react-icons/fa';
+import Anna from "../images/anna.png"
 
 class AboutMe extends React.Component {
     render() {
         return (
             <div id="about-me">
                 <Header />
+                <div className="container-intro">
+                    <Row>
+                        <Col>
+                            <img src={Anna} className="image-intro"></img>
+                        </Col>
+                        <Col xs={9}>
+                            <div className="large-intro-text">
+                                Hello, I'm Anna!
+                            </div>
+                            <div className="medium-intro-text">
+                                I'm a Computer Science student at California Polytechnic State University, San Luis Obispo, and I enjoy web development!
+                            </div>
+                            <div className="small-intro-text">
+                                Over the years, I've gained experience with HTML, CSS, and JavaScript, and began working with React when I was in college.
+                                Since then, I've been developing my skills with JavaScript frameworks and full stack application development. I also am a 
+                                big fan of the arts and how they connect to computer science, so in my free time I enjoy working with the Adobe products, watching movies,
+                                and writing reviews about them.
+                            </div>
+                            <Row className="row-button">
+                                <Col>
+                                    <Link to="/resume"><Button variant="info">Resume</Button></Link>
+                                </Col>
+                                <Col>
+                                    <Link to="/reviews"><Button variant="info">Reviews</Button></Link>
+                                </Col>
+                                <Col>
+                                    <Link to="/portfolio"><Button variant="info">Projects</Button></Link>
+                                </Col>
+                                <Col xs={8}>
+                                </Col>
+                                
+                            </Row>
+
+                        </Col>
+                    </Row>
+                </div>
+                <div className="message-text">
+                        My experience and activities!
+                </div>
+                <div className="message-subtext">
+                    Things I've done that I think are cool.
+                </div>
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element"

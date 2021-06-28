@@ -1,8 +1,10 @@
 import React from "react";
 import "../styles/contact.css";
 import "../styles/index.css";
+import "../styles/portfolio.css";
 import Header from "../components/Header.js"
 import Footer from "../components/Footer.js"
+import { Row } from 'react-bootstrap'
 import PortfolioCard from '../components/PortfolioCard';
 import polarBear2 from '../images/portfolioImages/polarBear2.png';
 import polarBear3 from '../images/portfolioImages/polarbear3.png';
@@ -45,7 +47,7 @@ const portfolio = [
         image3: h3
     },
     {
-        title: "Environmental Center of San Luis Obispo Beach Cleanup Database",
+        title: "ECOSLO Beach Cleanup App",
         date: "Winter 2019 - Spring 2020",
         description: "I got the opportunity to help design a large project for a club, Hack4Impact Cal Poly, during my freshman year of college. I worked mainly with the frontend, and it was so interesting to learn about all of the interconnected components that go into website design. In addition, I got to help build this website for a nonprofit in SLO county, which was an incredible experience. I learned so much and am so thankful for the opportunity!",
         image1: e1,
@@ -93,13 +95,15 @@ class Portfolio extends React.Component {
         });
         return (
           <>
+            <Row className="card-container">
               {portfolioCards}
+            </Row>
           </>
         );
       }
     render() {
         return (
-            <div id="contact" className="page">
+            <div id="portfolio" className="page">
                 <Header />
                 {this.renderPortfolio()}
                 <Footer />
