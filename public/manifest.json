@@ -1,0 +1,25 @@
+{
+  "short_name": "Anna's Website",
+  "name": "Anna's Website",
+  "icons": [
+    {
+      "src": "/images/AR.png",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/images/AR.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "/images/AR.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

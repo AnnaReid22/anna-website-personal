@@ -1,0 +1,16 @@
+
+#site-header {box-shadow: 0px 5px 5px #465557;
+    -webkit-box-shadow: 0px 5px 5px #465557;
+    -moz-box-shadow: 0px 5px 5px #465557;
+    position: relative;
+    z-index: 999999;
+    background-color: #0f3147;}
+
+.header-text{
+    color: #a8c4c7 !important; 
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+

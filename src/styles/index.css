@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=DM+Sans&family=Julius+Sans+One&family=Krub:wght@200&family=Questrial&family=Red+Hat+Text&family=Tajawal:wght@300&display=swap');
+
+:root {
+  --header-size: 10vh;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.Site {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.card-text{
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+}
+
+h1, h2, h3, p, small{
+  font-family: 'Tajawal', sans-serif;
+  text-align: center;
+  color: #005475;
+}
+
+
+.page-home {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.tablemargin {
+  margin-left: 100px,
+}
+
+button {
+  cursor: pointer;
+}

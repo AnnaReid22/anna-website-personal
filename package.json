@@ -1,0 +1,55 @@
+{
+  "name": "anna-website-personal",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "yarn": "1.x",
+    "node": "18.x"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^18.2.0",
+    "react-grid-gallery": "^1.0.0",
+    "react-icons": "^4.7.1",
+    "react-modal": "^3.16.1",
+    "react-rating-stars-component": "^2.2.0",
+    "react-responsive-image-grid": "^1.1.0",
+    "react-router-dom": "^6.4.5",
+    "react-vertical-timeline-component": "^3.6.0",
+    "serve": "^14.1.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "yarn build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "react-scripts": "^5.0.1",
+    "react-social-icons": "^5.15.0",
+    "url-loader": "^4.1.1"
+  }
+}

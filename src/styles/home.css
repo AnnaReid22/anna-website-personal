@@ -1,0 +1,25 @@
+#home-page {
+    background-image: url("bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.labelContent{
+    padding-top:12em;
+    padding-left:2em;
+    display:flex;
+    font-size: 2em;
+    font-family: 'Tajawal', sans-serif;
+    color: #E4F0EA !important;
+    text-decoration: none;
+    justify-content: flex-start;
+}
+
+.name{
+    font-family: 'Tajawal', sans-serif;
+    padding-left:0.9em;
+    font-size: 4em;
+    color: #E4F0EA !important;
+    text-decoration: none;
+}
