@@ -103,6 +103,11 @@ import Pnb2 from '../images/filmImages/pnb2.png';
 import M3gan from '../images/filmImages/megan.jpg';
 import Httyd from '../images/filmImages/httyd.jpg';
 import Hotel from '../images/filmImages/hotel.png';
+import BlackPhone from '../images/filmImages/black_phone.jpg';
+import Sixth from '../images/filmImages/sixth.jpg';
+import WallStreet from '../images/filmImages/wolf_of_ws.jpg';
+import Moana from '../images/filmImages/moana.jpg';
+import Fantastic from '../images/filmImages/fantastic.jpg';
 import {Gallery} from 'react-grid-gallery';
 import ReactStars from "react-rating-stars-component";
 
@@ -126,6 +131,51 @@ const customStyles = {
 };
 
 const filmDetails = [
+    {
+        // https://www.imdb.com/title/tt0432283/
+        width: 420,
+        height: 200,
+        caption: "Fantastic Mr. Fox",
+        src: Fantastic,
+        date: "April 2023",
+        rating: 4.0
+    },
+    {
+        // https://www.thedailybeast.com/the-revolutionary-moana-disneys-most-unapologetically-feminist-princess-yet
+        width: 420,
+        height: 200,
+        caption: "Moana",
+        src: Moana,
+        date: "April 2023",
+        rating: 4.5
+    },
+    {
+        // https://www.biography.com/movies-tv/the-wolf-of-wall-street-movie-facts
+        width: 420,
+        height: 200,
+        caption: "The Wolf of Wall Street",
+        src: WallStreet,
+        date: "March 2023",
+        rating: 2.0
+    },
+    {
+        // https://www.digitalspy.com/movies/a40359216/the-black-phone-true-story-inspiration-joe-hill/ 
+        width: 420,
+        height: 200,
+        caption: "The Black Phone",
+        src: BlackPhone,
+        date: "March 2023",
+        rating: 3.5
+    },
+    {
+        //https://www.imdb.com/title/tt0167404/
+        width: 420,
+        height: 200,
+        caption: "The Sixth Sense",
+        src: Sixth,
+        date: "March 2023",
+        rating: 5.0
+    },
     {
         width: 420,
         height: 200,
