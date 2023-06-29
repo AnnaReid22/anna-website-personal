@@ -3,11 +3,12 @@
 
 :root {
   --header-size: 10vh;
+  max-width: 100vw;
+  overflow-x: hidden;
   font-family: 'Tajawal', sans-serif;
 }
 
 .Site {
-  overflow-x: hidden;
   display: flex;
   flex-direction: column;
 }

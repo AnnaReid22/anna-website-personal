@@ -8,7 +8,7 @@ function Resume() {
   return (
     <div id="resume">
       <Header />
-      <img style={{display: "block", marginLeft: "auto", marginRight: "auto", width: "90%"}} src={ResumeFile} alt="resume"></img>
+        <img style={{display: "block", marginLeft: "auto", marginRight: "auto", width: "90%"}} src={ResumeFile} alt="resume"></img>
       <Footer />
     </div>
   );

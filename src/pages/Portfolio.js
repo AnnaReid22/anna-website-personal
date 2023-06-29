@@ -13,7 +13,6 @@ import f1 from '../images/portfolioImages/f1.png';
 import e1 from '../images/portfolioImages/e1.png';
 import h1 from '../images/portfolioImages/h1.png';
 import t1 from '../images/portfolioImages/t1.png';
-import design1 from '../images/portfolioImages/design1.png';
 import huff1 from '../images/portfolioImages/huff1.bmp';
 import matrix1 from '../images/portfolioImages/matrix1.png';
 import art182 from '../images/portfolioImages/art182.png';
@@ -22,9 +21,7 @@ import hh1 from '../images/portfolioImages/hh1.png';
 import im1 from '../images/portfolioImages/im1.png';
 import lop1 from '../images/portfolioImages/lop0.jpg';
 import ttt1 from '../images/portfolioImages/ttt1.png';
-import img315 from '../images/portfolioImages/315.png';
 import wish from '../images/portfolioImages/wish.png';
-import pl from '../images/portfolioImages/pl.png';
 import life1 from '../images/portfolioImages/group.png';
 import plutogame1 from '../images/portfolioImages/plutogame1.png';
 import virprod from '../images/portfolioImages/virprod.jpg';
@@ -33,10 +30,11 @@ import sam from '../images/portfolioImages/sam1.png';
 
 const portfolio = [
     {
-        title: "Virtual Production Alien World",
-        date: "September 2022 - Present",
-        description: "This is an exploratory project I am working on over two quarters to investigate Virtual Production, USD, Unreal Engine 5, and create a shot using these new processes.",
-        image1: virprod
+        title: "Virtual Production + Nvidia Omniverse",
+        date: "September 2022 - March 2023",
+        description: "This was an exploratory project to investigate Virtual Production, USD, Unreal Engine 5, and Nvidia Omniverse. Deliverables included a research paper and demonstrative scene of USD and virtual production processes.",
+        image1: virprod,
+        link: "https://youtu.be/OxLgFYNQiuk"
     },
     {
         title: "Sam's Story",
@@ -58,12 +56,6 @@ const portfolio = [
         description: "In this project, I worked with three other students to design an adventure game using OpenGL and C++ where the player is a rocket trying to fly to Pluto, while avoiding asteroids and other planets along the way. I learned about and implemented view frustum culling, shadow mapping, world building, particle systems, audio integration using SoLoud and MiniAudio, and overall team collaboration.",
         image1: plutogame1,
         link: "https://youtu.be/Uj4sQazUZ-8"
-    },
-    {
-        title: "Functional Programming",
-        date: "January 2022 - March 2022",
-        description: "In this course I learned about programming language design. We focused on designing a functional programming language called TULI using Racket as the host language, and delved into various topics including the implementation of environments, store passing style, type systems, interpreters, parsers, and garbage collectors.",
-        image1: pl
     },
     {
         title: "Life on Pluto?",
@@ -96,14 +88,8 @@ const portfolio = [
     {
         title: "After Effects, Photoshop, & Illustrator",
         date: "Spring 2021",
-        description: "I developed my skills in Illustrator, Photoshop, After Effects to create my first animation!",
+        description: "I developed my skills in Illustrator, Photoshop, After Effects to create an animation!",
         image1: art1831
-    },
-    {
-        title: "Computer Architecture Models",
-        date: "Spring 2021",
-        description: "I designed programs to model the execution and design of various computer architecture systems, including compiling assembly code, running compiled assembly code, modeling pipelines, and modeling caching based on different different cache sizes, associativity, and block sizes.",
-        image1: img315
     },
     {
         title: "Systems Multiprocess Matrix Solver",
@@ -123,13 +109,6 @@ const portfolio = [
         description: "I completed the design and deployment of a new Women Involved in Software and Hardware Website using HTML, CSS, JavaScript, and GitHub Pages and updated it with events throughout the year.",
         image1: wish,
         link: "https://wishcalpoly.com/"
-    },
-    {
-        title: "Hack4Impact Cal Poly Design Bootcamp",
-        date: "Fall 2020",
-        description: "I was tasked with designing a bootcamp for all incoming designers for the Hack4Impact Cal Poly program. I coordinated Zoom lectures to teach the basics of design, as well as how to work on a Hack4Impact team, for five weeks.",
-        image1: design1,
-        link: "https://www.notion.so/h4i/Design-Bootcamp-Resources-b8fb7cfc3d8f4e3d89b67d66d4764851"
     },
     {
         title: "Illustrator, InDesign, & Photoshop",
@@ -191,15 +170,12 @@ const portfolio = [
 class Portfolio extends React.Component {
     renderPortfolio() {
         let portfolioCards = portfolio.map((content) => {
-            console.log(content.link)
             return <PortfolioCard 
                 key={Math.random()}
                 title={content.title}
                 date={content.date}
                 description={content.description}
                 image1={content.image1}
-                image2={content.image2}
-                image3={content.image3}
                 pdf={content.pdf}
                 link={content.link} />
         });

@@ -108,6 +108,14 @@ import Sixth from '../images/filmImages/sixth.jpg';
 import WallStreet from '../images/filmImages/wolf_of_ws.jpg';
 import Moana from '../images/filmImages/moana.jpg';
 import Fantastic from '../images/filmImages/fantastic.jpg';
+import Shutter from '../images/filmImages/shutter.jpg';
+import Reality from '../images/filmImages/reality.jpg';
+import Budapest from '../images/filmImages/budapest.jpg';
+import GOTG3 from '../images/filmImages/gotg3.jpg';
+import Coraline from '../images/filmImages/coraline.jpg';
+import Inisherin from '../images/filmImages/inisherin.jpg';
+import Lorax from '../images/filmImages/lorax.jpg';
+import Body from '../images/filmImages/body.jpg';
 import {Gallery} from 'react-grid-gallery';
 import ReactStars from "react-rating-stars-component";
 
@@ -131,6 +139,78 @@ const customStyles = {
 };
 
 const filmDetails = [
+    {
+        // https://www.fastcompany.com/90436163/the-animated-netflix-film-i-lost-my-body-is-a-deeply-moving-heros-journey-for-a-severed-hand
+        width: 420,
+        height: 200,
+        caption: "I Lost My Body",
+        src: Body,
+        date: "June 2023",
+        rating: 4.5
+    },
+    {
+        // https://www.mlive.com/movies/2012/03/the_lorax_dr_seuss_animation_i.html
+        width: 420,
+        height: 200,
+        caption: "The Lorax",
+        src: Lorax,
+        date: "June 2023",
+        rating: 4.0
+    },
+    {
+        // https://www.npr.org/2022/10/21/1129518751/the-banshees-of-inisherin-film-review-colin-farrell-martin-mcdonagh
+        width: 420,
+        height: 200,
+        caption: "The Banshees of Inisherin",
+        src: Inisherin,
+        date: "May 2023",
+        rating: 2.0
+    },
+    {
+        // https://seahawkseye.org/4231/features/for-a-kids-movie-coraline-is-surprisingly-ghoulish/
+        width: 420,
+        height: 200,
+        caption: "Coraline",
+        src: Coraline,
+        date: "May 2023",
+        rating: 3.0
+    },
+    {
+        // https://www.space.com/guardians-of-the-galaxy-vol-3-review
+        width: 420,
+        height: 200,
+        caption: "Guardians of the Galaxy Volume 3",
+        src: GOTG3,
+        date: "May 2023",
+        rating: 5.0
+    },
+    {
+        // https://lithub.com/in-praise-of-wes-andersons-finest-film-the-grand-budapest-hotel/
+        width: 420,
+        height: 200,
+        caption: "The Grand Budapest Hotel",
+        src: Budapest,
+        date: "May 2023",
+        rating: 5.0
+    },
+    {
+        // https://www.cnn.com/2023/05/29/entertainment/reality-hbo-review/index.html
+        width: 420,
+        height: 200,
+        caption: "Reality",
+        src: Reality,
+        date: "May 2023",
+        rating: 3.5
+    },
+    {
+        // https://www.imdb.com/title/tt1130884/
+        width: 420,
+        height: 200,
+        caption: "Shutter Island",
+        src: Shutter,
+        date: "April 2023",
+        rating: 4.5
+    },
     {
         // https://www.imdb.com/title/tt0432283/
         width: 420,
