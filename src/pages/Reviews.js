@@ -115,6 +115,9 @@ import GOTG3 from '../images/filmImages/gotg3.jpg';
 import Coraline from '../images/filmImages/coraline.jpg';
 import Inisherin from '../images/filmImages/inisherin.jpg';
 import Lorax from '../images/filmImages/lorax.jpg';
+import Barbie from '../images/filmImages/barbie.jpg';
+import Burn from '../images/filmImages/burn.jpg';
+import Nightmare from '../images/filmImages/nightmare.jpg';
 import Body from '../images/filmImages/body.jpg';
 import {Gallery} from 'react-grid-gallery';
 import ReactStars from "react-rating-stars-component";
@@ -139,6 +142,33 @@ const customStyles = {
 };
 
 const filmDetails = [
+    {
+        // https://ew.com/movies/nightmare-on-elm-street-movies-ranked/
+        width: 420,
+        height: 200,
+        caption: "Nightmare on Elm Street",
+        src: Nightmare,
+        date: "October 2023",
+        rating: 1.0
+    },
+    {
+        // https://www.imdb.com/title/tt0887883/
+        width: 420,
+        height: 200,
+        caption: "Burn After Reading",
+        src: Burn,
+        date: "September 2023",
+        rating: 3.5
+    },
+    {
+        // https://www.elle.com/culture/movies-tv/a36979981/barbie-movie-release-date-cast-news-spoilers/
+        width: 420,
+        height: 200,
+        caption: "Barbie",
+        src: Barbie,
+        date: "August 2023",
+        rating: 4.0
+    },
     {
         // https://www.fastcompany.com/90436163/the-animated-netflix-film-i-lost-my-body-is-a-deeply-moving-heros-journey-for-a-severed-hand
         width: 420,

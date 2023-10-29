@@ -43,6 +43,17 @@ class AboutMe extends React.Component {
                         className="vertical-timeline-element"
                         contentStyle={{ background: '#f4f4f4', color: '#506163' }}
                         contentArrowStyle={{ borderRight: '7px solid  #506163' }}
+                        date="July 2023 - Present"
+                        iconStyle={{ background: '#a8c4c7', color: '#fff' }}
+                        icon={<FaBook />} >
+                        <h4 className="vertical-timeline-element-title">Walt Disney Animation Studios Associate Software Engineer</h4>
+                        <h5 className="vertical-timeline-element-subtitle">Los Angeles, California</h5>
+                        <p>Interactive Visualization Team</p>
+                    </VerticalTimelineElement>
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element"
+                        contentStyle={{ background: '#f4f4f4', color: '#506163' }}
+                        contentArrowStyle={{ borderRight: '7px solid  #506163' }}
                         date="August 2019 - June 2023"
                         iconStyle={{ background: '#a8c4c7', color: '#fff' }}
                         icon={<FaBook />} >
@@ -201,7 +212,7 @@ class AboutMe extends React.Component {
                         <h4 className="vertical-timeline-element-title">High School</h4>
                         <h5 className="vertical-timeline-element-subtitle">Seattle, WA</h5>
                         <p>
-                        Valedictorian, Full IB Diploma Program (40/45 Points), National Honor Society, Recognized Film Student of the 2019 Graduating Class.
+                        Valedictorian, Full IB Diploma Program (40/45 Points), National Honor Society, Recognized IB Film Student of the 2019 Graduating Class.
                         </p>
                     </VerticalTimelineElement>
                 </VerticalTimeline>
