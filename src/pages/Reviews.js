@@ -119,6 +119,11 @@ import Barbie from '../images/filmImages/barbie.jpg';
 import Burn from '../images/filmImages/burn.jpg';
 import Nightmare from '../images/filmImages/nightmare.jpg';
 import Body from '../images/filmImages/body.jpg';
+import Tron from '../images/filmImages/tron.png';
+import DeathCure from '../images/filmImages/deathCure.jpg';
+import Wish from '../images/filmImages/wish.jpeg';
+import Vanilla from '../images/filmImages/vanilla.jpg';
+import Birdman from '../images/filmImages/birdman.jpg';
 import {Gallery} from 'react-grid-gallery';
 import ReactStars from "react-rating-stars-component";
 
@@ -143,6 +148,33 @@ const customStyles = {
 
 const filmDetails = [
     {
+        // https://www.nyfa.edu/student-resources/best-cinematography-look-birdman/
+        width: 420,
+        height: 200,
+        caption: "Birdman",
+        src: Birdman,
+        date: "November 2023",
+        rating: 3.5
+    },
+    {
+        // https://www.imdb.com/title/tt4500922/mediaindex
+        width: 420,
+        height: 200,
+        caption: "Maze Runner: The Death Cure",
+        src: DeathCure,
+        date: "November 2023",
+        rating: 3.0
+    },
+    {
+        // https://www.pinterest.com/pin/14003448817927933/
+        width: 420,
+        height: 200,
+        caption: "Vanilla Sky",
+        src: Vanilla,
+        date: "November 2023",
+        rating: 4.5
+    },
+    {
         // https://ew.com/movies/nightmare-on-elm-street-movies-ranked/
         width: 420,
         height: 200,
@@ -150,6 +182,15 @@ const filmDetails = [
         src: Nightmare,
         date: "October 2023",
         rating: 1.0
+    },
+    {
+        // https://allears.net/2023/09/28/full-cast-for-disneys-brand-new-movie-wish/
+        width: 420,
+        height: 200,
+        caption: "Wish",
+        src: Wish,
+        date: "October 2023",
+        rating: 4.0
     },
     {
         // https://www.imdb.com/title/tt0887883/
@@ -168,6 +209,15 @@ const filmDetails = [
         src: Barbie,
         date: "August 2023",
         rating: 4.0
+    },
+    {
+        // https://moviesanywhere.com/movie/tron-legacy
+        width: 420,
+        height: 200,
+        caption: "Tron: Legacy",
+        src: Tron,
+        date: "July 2023",
+        rating: 4.5
     },
     {
         // https://www.fastcompany.com/90436163/the-animated-netflix-film-i-lost-my-body-is-a-deeply-moving-heros-journey-for-a-severed-hand
