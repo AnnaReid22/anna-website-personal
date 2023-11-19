@@ -166,7 +166,7 @@ const filmDetails = [
         rating: 3.0
     },
     {
-        // https://www.pinterest.com/pin/14003448817927933/
+        // https://www.rogerebert.com/reviews/vanilla-sky-2001
         width: 420,
         height: 200,
         caption: "Vanilla Sky",
