@@ -124,6 +124,11 @@ import DeathCure from '../images/filmImages/deathCure.jpg';
 import Wish from '../images/filmImages/wish.jpeg';
 import Vanilla from '../images/filmImages/vanilla.jpg';
 import Birdman from '../images/filmImages/birdman.jpg';
+import Wonka from '../images/filmImages/wonka.jpg';
+import HGSongbirds from '../images/filmImages/ballad.png';
+import BoysBoat from '../images/filmImages/boysboat.jpg';
+import BoyHeron from '../images/filmImages/boyheron.jpg';
+import Jurassic2 from '../images/filmImages/jurassicfallen.jpg';
 import {Gallery} from 'react-grid-gallery';
 import ReactStars from "react-rating-stars-component";
 
@@ -147,6 +152,51 @@ const customStyles = {
 };
 
 const filmDetails = [
+    {
+        // https://www.imdb.com/title/tt4881806/
+        width: 420,
+        height: 200,
+        caption: "Jurassic World: Fallen Kingdom",
+        src: Jurassic2,
+        date: "January 2023",
+        rating: 3
+    },
+    {
+        // https://www.esquire.com/entertainment/movies/a46067663/the-boy-and-the-heron-hayao-miyazaki-review/
+        width: 420,
+        height: 200,
+        caption: "The Boy and the Heron",
+        src: BoyHeron,
+        date: "December 2023",
+        rating: 4
+    },
+    {
+        // https://www.siff.net/cinema/in-theaters/boys-in-the-boat
+        width: 420,
+        height: 200,
+        caption: "Boys in the Boat",
+        src: BoysBoat,
+        date: "December 2023",
+        rating: 4
+    },
+    {
+        // https://www.supercutmagazine.com/posts/thebestlooksfromtheballadofsongbirdsandsnakestrailer
+        width: 420,
+        height: 200,
+        caption: "The Hunger Games: The Ballad of Songbirds and Snakes",
+        src: HGSongbirds,
+        date: "December 2023",
+        rating: 3.5
+    },
+    {
+        // https://www.imdb.com/title/tt6166392/
+        width: 420,
+        height: 200,
+        caption: "Wonka",
+        src: Wonka,
+        date: "December 2023",
+        rating: 4
+    },
     {
         // https://www.nyfa.edu/student-resources/best-cinematography-look-birdman/
         width: 420,
