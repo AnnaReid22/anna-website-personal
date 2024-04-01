@@ -129,6 +129,9 @@ import HGSongbirds from '../images/filmImages/ballad.png';
 import BoysBoat from '../images/filmImages/boysboat.jpg';
 import BoyHeron from '../images/filmImages/boyheron.jpg';
 import Jurassic2 from '../images/filmImages/jurassicfallen.jpg';
+import Dune2 from '../images/filmImages/dune2.jpg';
+import PoorThings from '../images/filmImages/poorthings.jpg';
+import DreamScenario from '../images/filmImages/dreamscenario.jpg';
 import {Gallery} from 'react-grid-gallery';
 import ReactStars from "react-rating-stars-component";
 
@@ -152,6 +155,33 @@ const customStyles = {
 };
 
 const filmDetails = [
+    {
+        // https://www.bam.org/film/2023/dream-scenario
+        width: 420,
+        height: 200,
+        caption: "Dream Scenario",
+        src: DreamScenario,
+        date: "March 2024",
+        rating: 3
+    },
+    {
+        // https://www.polygon.com/24006971/poor-things-yorgos-lanthimos-interview-emma-stone
+        width: 420,
+        height: 200,
+        caption: "Poor Things",
+        src: PoorThings,
+        date: "March 2024",
+        rating: 4
+    },
+    {
+        // https://www.reddit.com/r/AustinButlerLand/comments/136rp85/some_stills_of_austin_from_the_dune_part_two/
+        width: 420,
+        height: 200,
+        caption: "Dune: Part 2",
+        src: Dune2,
+        date: "March 2024",
+        rating: 5
+    },
     {
         // https://www.imdb.com/title/tt4881806/
         width: 420,
