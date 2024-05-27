@@ -132,6 +132,12 @@ import Jurassic2 from '../images/filmImages/jurassicfallen.jpg';
 import Dune2 from '../images/filmImages/dune2.jpg';
 import PoorThings from '../images/filmImages/poorthings.jpg';
 import DreamScenario from '../images/filmImages/dreamscenario.jpg';
+import GodzillaVKong from '../images/filmImages/godzillavkong.jpg';
+import Aquaman2 from '../images/filmImages/aquaman2.jpg';
+import HalfBrothers from '../images/filmImages/halfbrothers.jpg';
+import IdeaOfYou from '../images/filmImages/ideaofyou.jpg';
+import IronClaw from '../images/filmImages/ironclaw.jpg';
+import Cars3 from '../images/filmImages/cars3.jpg';
 import {Gallery} from 'react-grid-gallery';
 import ReactStars from "react-rating-stars-component";
 
@@ -155,6 +161,60 @@ const customStyles = {
 };
 
 const filmDetails = [
+    {
+        // https://www.imdb.com/title/tt3606752/
+        width: 420,
+        height: 200,
+        caption: "Cars 3",
+        src: Cars3,
+        date: "March 2024",
+        rating: 3.5
+    },
+    {
+        //https://www.imdb.com/title/tt21064584/
+        width: 420,
+        height: 200,
+        caption: "The Iron Claw",
+        src: IronClaw,
+        date: "March 2024",
+        rating: 5
+    },
+    {
+        // https://ew.com/the-idea-of-you-author-reacts-movie-changed-ending-not-the-story-i-wanted-to-tell-8643327
+        width: 420,
+        height: 200,
+        caption: "The Idea of You",
+        src: IdeaOfYou,
+        date: "May 2024",
+        rating: 3.5
+    },
+    {
+        // https://www.socialnews.xyz/2020/10/08/half-brothers-movie-hd-posters-and-stills/
+        width: 420,
+        height: 200,
+        caption: "Half Brothers",
+        src: HalfBrothers,
+        date: "April 2024",
+        rating: 4
+    },
+    {
+        // https://people.com/jason-momoa-aquaman-and-the-lost-kingdom-featurette-exclusive-8403368
+        width: 420,
+        height: 200,
+        caption: "Aquaman and the Lost Kingdom",
+        src: Aquaman2,
+        date: "April 2024",
+        rating: 2
+    },
+    {
+        // https://www.imdb.com/title/tt5034838/
+        width: 420,
+        height: 200,
+        caption: "Godzilla vs. Kong",
+        src: GodzillaVKong,
+        date: "April 2024",
+        rating: 2
+    },
     {
         // https://www.bam.org/film/2023/dream-scenario
         width: 420,
