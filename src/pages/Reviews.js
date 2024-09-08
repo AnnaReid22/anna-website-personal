@@ -138,6 +138,15 @@ import HalfBrothers from '../images/filmImages/halfbrothers.jpg';
 import IdeaOfYou from '../images/filmImages/ideaofyou.jpg';
 import IronClaw from '../images/filmImages/ironclaw.jpg';
 import Cars3 from '../images/filmImages/cars3.jpg';
+import GodzillaXKongNewEmpire from '../images/filmImages/gxk_newempire.jpg';
+import AnyoneButYou from '../images/filmImages/anyonebutyou.jpg';
+import UnbearableWeight from '../images/filmImages/unbearableweight.jpg';
+import WineCountry from '../images/filmImages/winecountry.jpeg';
+import Alien from '../images/filmImages/alien.jpg';
+import Her from '../images/filmImages/her.jpg';
+import CinemaParadiso from '../images/filmImages/cinemaparadiso.jpg';
+import LostInTranslation from '../images/filmImages/lostintranslation.jpeg';
+import Furiosa from '../images/filmImages/furiosa.jpg';
 import {Gallery} from 'react-grid-gallery';
 import ReactStars from "react-rating-stars-component";
 
@@ -161,6 +170,87 @@ const customStyles = {
 };
 
 const filmDetails = [
+    {
+        // https://screenanarchy.com/2023/12/furiosa-giving-the-heroine-a-prequel-plays-a-dangerous-game.html
+        width: 420,
+        height: 200,
+        caption: "Furiosa: A Mad Max Saga",
+        src: Furiosa,
+        date: "September 2024",
+        rating: 4
+    },
+    {
+        // https://www.thedailybeast.com/sofia-coppola-discusses-lost-in-translation-on-its-10th-anniversary
+        width: 420,
+        height: 200,
+        caption: "Lost in Translation",
+        src: LostInTranslation,
+        date: "September 2024",
+        rating: 1
+    },
+    {
+        // https://m.imdb.com/title/tt0095765/mediaindex/
+        width: 420,
+        height: 200,
+        caption: "Cinema Paradiso",
+        src: CinemaParadiso,
+        date: "September 2024",
+        rating: 5
+    },
+    {
+        // https://www.imdb.com/title/tt1798709/
+        width: 420,
+        height: 200,
+        caption: "Her",
+        src: Her,
+        date: "August 2024",
+        rating: 1
+    },
+    {
+        // https://www.imdb.com/title/tt0078748/mediaindex/
+        width: 420,
+        height: 200,
+        caption: "Alien",
+        src: Alien,
+        date: "August 2024",
+        rating: 4.5
+    },
+    {
+        // https://www.netflix.com/title/80194950
+        width: 420,
+        height: 200,
+        caption: "Wine Country",
+        src: WineCountry,
+        date: "August 2024",
+        rating: 2
+    },
+    {
+        // https://medium.com/70-mm/review-the-unbearable-weight-of-massive-talent-fc0d57e93fc3
+        width: 420,
+        height: 200,
+        caption: "The Unbearable Weight of Massive Talent",
+        src: UnbearableWeight,
+        date: "August 2024",
+        rating: 4
+    },
+    {
+        // https://www.koimoi.com/reviews/hollywood-movie-reviews/anyone-but-you-movie-review-sydney-sweeney-glen-powell-look-beautiful-in-this-new-rom-com-but-that-is-not-enough/
+        width: 420,
+        height: 200,
+        caption: "Anyone But You",
+        src: AnyoneButYou,
+        date: "July 2024",
+        rating: 1
+    },
+    {
+        // https://www.gippslandtimes.com.au/news/2024/04/03/godzilla-x-kong-the-new-empire-review-from-slog-to-strength/
+        width: 420,
+        height: 200,
+        caption: "Godzilla X Kong: The New Empire",
+        src: GodzillaXKongNewEmpire,
+        date: "July 2024",
+        rating: 1
+    },
     {
         // https://www.imdb.com/title/tt3606752/
         width: 420,
