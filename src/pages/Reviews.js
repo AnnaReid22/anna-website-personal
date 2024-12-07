@@ -138,8 +138,10 @@ import HalfBrothers from '../images/filmImages/halfbrothers.jpg';
 import IdeaOfYou from '../images/filmImages/ideaofyou.jpg';
 import IronClaw from '../images/filmImages/ironclaw.jpg';
 import Cars3 from '../images/filmImages/cars3.jpg';
+import UnderParis from '../images/filmImages/underparis.jpeg';
 import GodzillaXKongNewEmpire from '../images/filmImages/gxk_newempire.jpg';
 import AnyoneButYou from '../images/filmImages/anyonebutyou.jpg';
+import MadameWeb from '../images/filmImages/madameweb.jpg';
 import UnbearableWeight from '../images/filmImages/unbearableweight.jpg';
 import WineCountry from '../images/filmImages/winecountry.jpeg';
 import Alien from '../images/filmImages/alien.jpg';
@@ -147,6 +149,16 @@ import Her from '../images/filmImages/her.jpg';
 import CinemaParadiso from '../images/filmImages/cinemaparadiso.jpg';
 import LostInTranslation from '../images/filmImages/lostintranslation.jpeg';
 import Furiosa from '../images/filmImages/furiosa.jpg';
+import MamaMia from '../images/filmImages/mamamia.jpg';
+import MamaMia2 from '../images/filmImages/mamamia2.jpg';
+import AllTheBoys1 from '../images/filmImages/toalltheboys1.jpg';
+import AllTheBoys2 from '../images/filmImages/toalltheboys2.jpg';
+import AllTheBoys3 from '../images/filmImages/toalltheboys3.jpg';
+import ChaosWalking from '../images/filmImages/chaoswalking.jpg';
+import Paddington from '../images/filmImages/paddington.jpg';
+import Moana2 from '../images/filmImages/moana2.jpg';
+import Wicked from '../images/filmImages/wicked.jpg';
+
 import {Gallery} from 'react-grid-gallery';
 import ReactStars from "react-rating-stars-component";
 
@@ -170,6 +182,87 @@ const customStyles = {
 };
 
 const filmDetails = [
+    {
+        // https://abcnews.go.com/GMA/Culture/wicked-part/story?id=112594219
+        width: 420,
+        height: 200,
+        caption: "Wicked",
+        src: Wicked,
+        date: "November 2024",
+        rating: 3
+    },
+    {
+        // https://www.imdb.com/title/tt13622970/mediaindex/
+        width: 420,
+        height: 200,
+        caption: "Moana 2",
+        src: Moana2,
+        date: "November 2024",
+        rating: 4
+    },
+    {
+        // https://editorial.rottentomatoes.com/gallery/24-certified-fresh-fantasy-movies-for-the-whole-family/paddington-bear-movie-new-images-3/
+        width: 420,
+        height: 200,
+        caption: "Paddington",
+        src: Paddington,
+        date: "October 2024",
+        rating: 4
+    },
+    {
+        // https://www.ign.com/slideshows/chaos-walking-images
+        width: 420,
+        height: 200,
+        caption: "Chaos Walking",
+        src: ChaosWalking,
+        date: "October 2024",
+        rating: 1
+    },
+    {
+        // https://www.imdb.com/title/tt10676012/
+        width: 420,
+        height: 200,
+        caption: "To All the Boys: Always and Forever",
+        src: AllTheBoys3,
+        date: "October 2024",
+        rating: 2
+    },
+    {
+        // https://ew.com/movies/2020/02/07/lana-condor-preview-to-all-the-boys-ps-i-still-love-you/
+        width: 420,
+        height: 200,
+        caption: "To All the Boys: P.S. I Still Love You",
+        src: AllTheBoys2,
+        date: "October 2024",
+        rating: 2
+    },
+    {
+        //https://www.teenvogue.com/story/to-all-the-boys-ive-loved-before-sequel-ps-i-still-love-you-release-date-netflix
+        width: 420,
+        height: 200,
+        caption: "To All the Boys I Loved Before",
+        src: AllTheBoys1,
+        date: "October 2024",
+        rating: 3
+    },
+    {
+        // https://m.imdb.com/title/tt6911608/mediaviewer/rm716791040/
+        width: 420,
+        height: 200,
+        caption: "Mama Mia! Here We Go Again",
+        src: MamaMia2,
+        date: "September 2024",
+        rating: 3
+    },
+    {
+        // https://m.imdb.com/title/tt0795421/mediaviewer/rm2762256384/
+        width: 420,
+        height: 200,
+        caption: "Mama Mia!",
+        src: MamaMia,
+        date: "September 2024",
+        rating: 4
+    },
     {
         // https://screenanarchy.com/2023/12/furiosa-giving-the-heroine-a-prequel-plays-a-dangerous-game.html
         width: 420,
@@ -234,6 +327,15 @@ const filmDetails = [
         rating: 4
     },
     {
+        // https://www.picturehouses.com/movie-details/000/HO00014271/madame-web
+        width: 420,
+        height: 200,
+        caption: "Madame Web",
+        src: MadameWeb,
+        date: "July 2024",
+        rating: 1
+    },
+    {
         // https://www.koimoi.com/reviews/hollywood-movie-reviews/anyone-but-you-movie-review-sydney-sweeney-glen-powell-look-beautiful-in-this-new-rom-com-but-that-is-not-enough/
         width: 420,
         height: 200,
@@ -250,6 +352,15 @@ const filmDetails = [
         src: GodzillaXKongNewEmpire,
         date: "July 2024",
         rating: 1
+    },
+    {
+        // https://www.npr.org/2024/06/15/nx-s1-5006140/under-paris-review-sharks
+        width: 420,
+        height: 200,
+        caption: "Under Paris",
+        src: UnderParis,
+        date: "July 2024",
+        rating: 2
     },
     {
         // https://www.imdb.com/title/tt3606752/
