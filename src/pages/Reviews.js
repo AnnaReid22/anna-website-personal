@@ -158,6 +158,12 @@ import ChaosWalking from '../images/filmImages/chaoswalking.jpg';
 import Paddington from '../images/filmImages/paddington.jpg';
 import Moana2 from '../images/filmImages/moana2.jpg';
 import Wicked from '../images/filmImages/wicked.jpg';
+import OurLittleSecret from '../images/filmImages/ourLittleSecret.jpg';
+import CarryOn from '../images/filmImages/carryOn.jpg';
+import Challengers from '../images/filmImages/challengers.jpeg';
+import StareAtGoats from '../images/filmImages/theMenWhoStareAtGoats.jpeg';
+import WallaceAndGromit from '../images/filmImages/vengeance.jpg';
+import TheGame from '../images/filmImages/theGame.jpg';
 
 import {Gallery} from 'react-grid-gallery';
 import ReactStars from "react-rating-stars-component";
@@ -182,6 +188,60 @@ const customStyles = {
 };
 
 const filmDetails = [
+    {
+        // https://theasc.com/articles/ac-gallery-the-game
+        width: 420,
+        height: 200,
+        caption: "The Game",
+        src: TheGame,
+        date: "January 2025",
+        rating: 3.5
+    },
+    {
+        // https://www.pluggedin.com/movie-reviews/wallace-and-gromit-vengeance-most-fowl-2024/
+        width: 420,
+        height: 200,
+        caption: "Wallace and Gromit: Vengeance Most Fowl",
+        src: WallaceAndGromit,
+        date: "January 2025",
+        rating: 4
+    },
+    {
+        // https://www.netflix.com/de-en/title/70117293
+        width: 420,
+        height: 200,
+        caption: "The Men Who Stare at Goats",
+        src: StareAtGoats,
+        date: "January 2025",
+        rating: 3
+    },
+    {
+        // https://www.movieinsider.com/photos/714673
+        width: 420,
+        height: 200,
+        caption: "Challengers",
+        src: Challengers,
+        date: "January 2025",
+        rating: 2.5
+    },
+    {
+        // https://www.netflix.com/tudum/articles/carry-on-taron-egerton-movie-info
+        width: 420,
+        height: 200,
+        caption: "Carry On",
+        src: CarryOn,
+        date: "December 2024",
+        rating: 2
+    },
+    {
+        // https://www.whats-on-netflix.com/what-to-watch/our-little-secret-movie-review-is-lindsay-lohans-second-netflix-christmas-movie-worth-a-watch/
+        width: 420,
+        height: 200,
+        caption: "Our Little Secret",
+        src: OurLittleSecret,
+        date: "December 2024",
+        rating: 1
+    },
     {
         // https://abcnews.go.com/GMA/Culture/wicked-part/story?id=112594219
         width: 420,
