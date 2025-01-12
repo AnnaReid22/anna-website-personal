@@ -18,8 +18,7 @@ const Footer = () => {
           <SocialIcon style={{margin: "30px"}} target="_blank" url="https://www.linkedin.com/in/anna-reid/"></SocialIcon>
           <SocialIcon style={{margin: "30px"}} target="_blank" bgColor="turquoise" url="https://sketchfab.com/anreid"></SocialIcon>
           <SocialIcon style={{margin: "30px"}} target="_blank" bgColor="lightBlue" url="https://www.youtube.com/channel/UCSDk4I3Y-g9aqUOOf66Ia5g"></SocialIcon>
-          <SocialIcon style={{margin: "30px"}} target="_blank" network="email" url="mailto:reid.anna.m@gmail.com"></SocialIcon>
-          <div> Made by Anna Reid :) </div>
+          <div> Made by Anna :) </div>
       </footer>
   )
 }

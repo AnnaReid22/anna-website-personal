@@ -1,7 +1,6 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import ResumeFile from '../images/resume.pdf';
 import "../styles/resume.css";
 
 function Resume() {
@@ -9,16 +8,16 @@ function Resume() {
     <div id="resume">
       <Header />
       <div id="wrap-resume">
-        <object style={{
+        <iframe style={{
                           display: "block", 
                           marginLeft: "auto", 
                           marginRight: "auto", 
                           width: "90%",
                           height: "800px"
                         }} 
-                        data={ResumeFile} 
-                        type="application/pdf">
-        </object>
+                        title="Anna Resume"
+                        src="https://drive.google.com/file/d/1wbPoasagP0R8t11-zhSnaYZ-gr9dQUmE/preview">
+        </iframe>
       </div>
       <Footer />
     </div>

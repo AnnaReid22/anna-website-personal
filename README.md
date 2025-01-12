@@ -1,2 +1,2 @@
-## Anna Reid's Website
-View this page: https://anna-michelle.herokuapp.com/ to check out my story & projects!
+## Anna's Website
+View this page: https://anna-mr.com/ to check out my story & projects!
