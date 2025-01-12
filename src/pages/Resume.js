@@ -9,17 +9,16 @@ function Resume() {
     <div id="resume">
       <Header />
       <div id="wrap-resume">
-        <embed style={{
-                        display: "block", 
-                        marginLeft: "auto", 
-                        marginRight: "auto", 
-                        width: "90%",
-                        height: "800px"
-                      }} 
-                src={ResumeFile} 
-                type="application/pdf" 
-                alt="resume">
-        </embed>
+        <object style={{
+                          display: "block", 
+                          marginLeft: "auto", 
+                          marginRight: "auto", 
+                          width: "90%",
+                          height: "800px"
+                        }} 
+                        data={ResumeFile} 
+                        type="application/pdf">
+        </object>
       </div>
       <Footer />
     </div>
