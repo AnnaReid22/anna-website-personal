@@ -164,6 +164,8 @@ import Challengers from '../images/filmImages/challengers.jpeg';
 import StareAtGoats from '../images/filmImages/theMenWhoStareAtGoats.jpeg';
 import WallaceAndGromit from '../images/filmImages/vengeance.jpg';
 import TheGame from '../images/filmImages/theGame.jpg';
+import TheVillage from '../images/filmImages/theVillage.jpg';
+import FightClub from '../images/filmImages/fightClub.jpg';
 
 import {Gallery} from 'react-grid-gallery';
 import ReactStars from "react-rating-stars-component";
@@ -188,6 +190,24 @@ const customStyles = {
 };
 
 const filmDetails = [
+    {
+        // https://film-grab.com/2010/11/14/fight-club/
+        width: 420,
+        height: 200,
+        caption: "Fight Club",
+        src: FightClub,
+        date: "January 2025",
+        rating: 3.0
+    },
+    {
+        // https://film-grab.com/2020/02/25/the-village/
+        width: 420,
+        height: 200,
+        caption: "The Village",
+        src: TheVillage,
+        date: "January 2025",
+        rating: 4.0
+    },
     {
         // https://theasc.com/articles/ac-gallery-the-game
         width: 420,
