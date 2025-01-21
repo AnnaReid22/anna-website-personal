@@ -166,6 +166,8 @@ import WallaceAndGromit from '../images/filmImages/vengeance.jpg';
 import TheGame from '../images/filmImages/theGame.jpg';
 import TheVillage from '../images/filmImages/theVillage.jpg';
 import FightClub from '../images/filmImages/fightClub.jpg';
+import CompleteUnknown from '../images/filmImages/completeunknown.jpg';
+import AmericanPsycho from '../images/filmImages/americanpsycho.jpg';
 
 import {Gallery} from 'react-grid-gallery';
 import ReactStars from "react-rating-stars-component";
@@ -190,6 +192,24 @@ const customStyles = {
 };
 
 const filmDetails = [
+    {
+        // https://portlandartmuseum.org/event/american-psycho-unexpected-interiors/
+        width: 420,
+        height: 200,
+        caption: "American Psycho",
+        src: AmericanPsycho,
+        date: "January 2025",
+        rating: 1.0
+    },
+    {
+        // https://mashable.com/article/a-complete-unknown-review
+        width: 420,
+        height: 200,
+        caption: "A Complete Unknown",
+        src: CompleteUnknown,
+        date: "January 2025",
+        rating: 5.0
+    },
     {
         // https://film-grab.com/2010/11/14/fight-club/
         width: 420,
@@ -737,7 +757,7 @@ const filmDetails = [
         caption: "The Wolf of Wall Street",
         src: WallStreet,
         date: "March 2023",
-        rating: 2.0
+        rating: 1.0
     },
     {
         // https://www.digitalspy.com/movies/a40359216/the-black-phone-true-story-inspiration-joe-hill/ 

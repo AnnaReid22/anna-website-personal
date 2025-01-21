@@ -9,11 +9,8 @@ function Resume() {
       <Header />
       <div id="wrap-resume">
         <iframe style={{
-                          display: "block", 
-                          marginLeft: "auto", 
-                          marginRight: "auto", 
-                          width: "90%",
-                          height: "800px"
+                          width: "100%",
+                          height: "1050px"
                         }} 
                         title="Anna Resume"
                         src="https://drive.google.com/file/d/1wbPoasagP0R8t11-zhSnaYZ-gr9dQUmE/preview">

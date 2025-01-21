@@ -47,6 +47,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.25.9",
     "file-loader": "^6.2.0",
     "react-scripts": "^5.0.1",
     "react-social-icons": "^5.15.0",
