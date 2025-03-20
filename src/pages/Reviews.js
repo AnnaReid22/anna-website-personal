@@ -1740,11 +1740,6 @@ const Reviews = () => {
                             <p>{filmDetails[currentImage].reviewp5}</p>
                         </div>
                         }
-                        <p>{filmDetails[currentImage].reviewp1}</p>
-                        <p>{filmDetails[currentImage].reviewp2}</p>
-                        <p>{filmDetails[currentImage].reviewp3}</p>
-                        <p>{filmDetails[currentImage].reviewp4}</p>
-                        <p>{filmDetails[currentImage].reviewp5}</p>
                     <Button style={{float: 'right'}} variant="outline-info" onClick={closeModal}>X</Button>
                     </Modal>
                 </div>
