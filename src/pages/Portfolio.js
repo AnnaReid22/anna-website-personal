@@ -13,7 +13,7 @@ import f1 from '../images/portfolioImages/f1.png';
 import e1 from '../images/portfolioImages/e1.png';
 import h1 from '../images/portfolioImages/h1.png';
 import t1 from '../images/portfolioImages/t1.png';
-import huff1 from '../images/portfolioImages/huff1.bmp';
+import huff1 from '../images/portfolioImages/huff1.png';
 import matrix1 from '../images/portfolioImages/matrix1.png';
 import art182 from '../images/portfolioImages/art182.png';
 import art1831 from '../images/portfolioImages/art1831.png';
