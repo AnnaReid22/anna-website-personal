@@ -168,6 +168,23 @@ import TheVillage from '../images/filmImages/theVillage.jpg';
 import FightClub from '../images/filmImages/fightClub.jpg';
 import CompleteUnknown from '../images/filmImages/completeunknown.jpg';
 import AmericanPsycho from '../images/filmImages/americanpsycho.jpg';
+import WeLiveInTime from '../images/filmImages/weLiveInTime.jpg';
+import BeauIsAfraid from '../images/filmImages/beauIsAfraid.jpg';
+import FiveNights from '../images/filmImages/fiveNights.jpg';
+import Gorge from '../images/filmImages/gorge.jpg';
+import Twisters from '../images/filmImages/twisters.jpg';
+import Mountainhead from '../images/filmImages/mountainhead.jpg';
+import Mickey17 from '../images/filmImages/mickey17.jpg';
+import Companion from '../images/filmImages/companion.jpg';
+import Novocaine from '../images/filmImages/novocaine.png';
+import PhoenicianScheme from '../images/filmImages/phoenicianScheme.jpg';
+import BraveNewWorld from '../images/filmImages/braveNewWorld.jpg';
+import Minecraft from '../images/filmImages/minecraft.jpg';
+import Elio from '../images/filmImages/elio.jpg';
+import MomJayne from '../images/filmImages/momJayne.jpg';
+import Parasite from '../images/filmImages/parasite.jpg';
+import Prestige from '../images/filmImages/prestige.jpg';
+import Sinners from '../images/filmImages/sinners.jpg';
 
 import {Gallery} from 'react-grid-gallery';
 import ReactStars from "react-rating-stars-component";
@@ -192,6 +209,159 @@ const customStyles = {
 };
 
 const filmDetails = [
+    {
+        // https://www.nytimes.com/2025/04/17/movies/sinners-review-ryan-coogler.html
+        width: 420,
+        height: 200,
+        caption: "Sinners",
+        src: Sinners,
+        date: "July 2025",
+        rating: 4.5
+    },
+    {
+        // https://www.imdb.com/title/tt0482571/mediaindex/
+        width: 420,
+        height: 200,
+        caption: "The Prestige",
+        src: Prestige,
+        date: "July 2025",
+        rating: 4.0
+    },
+    {
+        // https://www.strangeharbors.com/blog/2019/11/9/film-review-parasite
+        width: 420,
+        height: 200,
+        caption: "Parasite",
+        src: Parasite,
+        date: "July 2025",
+        rating: 3.5
+    },
+    {
+        // https://www.amazon.com/My-Mom-Jayne-Mariska-Hargitay/dp/B0F9PZG2SF
+        width: 420,
+        height: 200,
+        caption: "My Mom Jayne",
+        src: MomJayne,
+        date: "June 2025",
+        rating: 5.0
+    },
+    {
+        // https://nextbestpicture.com/an-early-look-at-pixars-new-film-elio/
+        width: 420,
+        height: 200,
+        caption: "Elio",
+        src: Elio,
+        date: "June 2025",
+        rating: 4.0
+    },
+    {
+        // https://people.com/all-the-easter-eggs-in-a-minecraft-movie-11710304
+        width: 420,
+        height: 200,
+        caption: "A Minecraft Movie",
+        src: Minecraft,
+        date: "June 2025",
+        rating: 2.0
+    },
+    {
+        // https://geektyrant.com/news/captain-america-brave-new-world-tracking-for-a-big-box-office-opening
+        width: 420,
+        height: 200,
+        caption: "Captain America: Brave New World",
+        src: BraveNewWorld,
+        date: "June 2025",
+        rating: 2.0
+    },
+    {
+        // https://www.imdb.com/title/tt30840798/
+        width: 420,
+        height: 200,
+        caption: "The Phoenician Scheme",
+        src: PhoenicianScheme,
+        date: "June 2025",
+        rating: 3.5
+    },
+    {
+        // https://www.cinemablend.com/movies/love-novocaine-so-much-it-hurts-one-big-issue-involving-main-villain
+        width: 420,
+        height: 200,
+        caption: "Novocaine",
+        src: Novocaine,
+        date: "June 2025",
+        rating: 3.5
+    },
+    {
+        // https://www.moviefone.com/news/movie-review-mountainhead/
+        width: 420,
+        height: 200,
+        caption: "Mountainhead",
+        src: Mountainhead,
+        date: "May 2025",
+        rating: 2.0
+    },
+    {
+        // https://abcnews.go.com/GMA/Culture/review-companion-fiendishly-funny-romcom-scarefest-wickedly-decadent/story?id=118268821
+        width: 420,
+        height: 200,
+        caption: "Companion",
+        src: Companion,
+        date: "March 2025",
+        rating: 3.5
+    },
+    {
+        // https://nerdreactor.com/mickey-17-movie-review-robert-pattinson-shines-but-does-the-story/
+        width: 420,
+        height: 200,
+        caption: "Mickey 17",
+        src: Mickey17,
+        date: "March 2025",
+        rating: 3.5
+    },
+    {
+        // https://www.apple.com/tv-pr/originals/the-gorge/images/
+        width: 420,
+        height: 200,
+        caption: "The Gorge",
+        src: Gorge,
+        date: "February 2025",
+        rating: 3.5
+    },
+    {
+        // https://ew.com/movies/five-nights-at-freddys-still-dominates-at-no-1/
+        width: 420,
+        height: 200,
+        caption: "Five Nights At Freddy's",
+        src: FiveNights,
+        date: "February 2025",
+        rating: 3.5
+    },
+    {
+        // https://artreview.com/beau-is-afraid-is-an-anxious-mess-its-also-brilliant-ari-aster/
+        width: 420,
+        height: 200,
+        caption: "Beau Is Afraid",
+        src: BeauIsAfraid,
+        date: "February 2025",
+        rating: 2.0
+    },
+    {
+        // https://www.twisters-movie.com/gallery/
+        width: 420,
+        height: 200,
+        caption: "Twisters",
+        src: Twisters,
+        date: "January 2025",
+        rating: 3.5
+    },
+    {
+        // https://www.indiewire.com/news/trailers/we-live-in-time-trailer-florence-pugh-andrew-garfield-romance-1235023892/
+        width: 420,
+        height: 200,
+        caption: "We Live in Time",
+        src: WeLiveInTime,
+        date: "January 2025",
+        rating: 4.5
+    },
     {
         // https://portlandartmuseum.org/event/american-psycho-unexpected-interiors/
         width: 420,
