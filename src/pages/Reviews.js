@@ -185,6 +185,23 @@ import MomJayne from '../images/filmImages/momJayne.jpg';
 import Parasite from '../images/filmImages/parasite.jpg';
 import Prestige from '../images/filmImages/prestige.jpg';
 import Sinners from '../images/filmImages/sinners.jpg';
+import CivilWar from '../images/filmImages/civilwar.jpg';
+import BigFish from '../images/filmImages/bigfish.png';
+import SingSing from '../images/filmImages/singsing.jpg';
+import Substance from '../images/filmImages/substance.jpg';
+import Zootopia2 from '../images/filmImages/zootopia2.jpg';
+import Weapons from '../images/filmImages/weapons.jpg';
+import Table19 from '../images/filmImages/table19.jpg';
+import Avatar3 from '../images/filmImages/fireandash.jpg';
+import Grindelwald from '../images/filmImages/crimesofgrindelwald.jpg';
+import SecretsOfDumbledore from '../images/filmImages/secretsofdumbledore.jpg';
+import TrainDreams from '../images/filmImages/traindreams.jpg';
+import OneBattleAfterAnother from '../images/filmImages/onebattle.png';
+import Eternity from '../images/filmImages/eternity.jpg';
+import F1 from '../images/filmImages/f1.jpg';
+import Hamnet from '../images/filmImages/hamnet.jpg';
+import WickedForGood from '../images/filmImages/wickedforgood.jpg';
+import TheDevilWearsPrada from '../images/filmImages/thedevilwearsprada.jpg';
 
 import {Gallery} from 'react-grid-gallery';
 import ReactStars from "react-rating-stars-component";
@@ -209,6 +226,141 @@ const customStyles = {
 };
 
 const filmDetails = [
+    {
+        // https://movieweb.com/tag/movie/the-devil-wears-prada/  
+        width: 420,
+        height: 200,
+        caption: "The Devil Wears Prada",
+        src: TheDevilWearsPrada,
+        date: "April 2026",
+        rating: 4.0
+    },
+    {
+        // https://www.attitude.co.uk/culture/wicked-for-good-trailer-484822/ 
+        width: 420,
+        height: 200,
+        caption: "Wicked: For Good",
+        src: WickedForGood,
+        date: "March 2026",
+        rating: 2.0
+    },
+    {
+        // https://mashable.com/article/eternity-movie-review 
+        width: 420,
+        height: 200,
+        caption: "Eternity",
+        src: Eternity,
+        date: "March 2026",
+        rating: 3.5
+    },
+    {
+        // https://screenrant.com/hamnet-movie-review/ 
+        width: 420,
+        height: 200,
+        caption: "Hamnet",
+        src: Hamnet,
+        date: "March 2026",
+        rating: 5.0
+    },
+    {
+        // https://nextbestpicture.com/trailer-f1/ 
+        width: 420,
+        height: 200,
+        caption: "F1",
+        src: F1,
+        date: "March 2026",
+        rating: 3.5
+    },
+    {
+        // https://www.newsweek.com/entertainment/movies/one-battle-after-another-everything-we-know-trailer-release-date-2052904 
+        width: 420,
+        height: 200,
+        caption: "One Battle After Another",
+        src: OneBattleAfterAnother,
+        date: "January 2026",
+        rating: 4.5
+    },
+    {
+        // https://www.thenewworld.co.uk/john-bleasdale-train-dreams-is-the-years-most-beautiful-film/ 
+        width: 420,
+        height: 200,
+        caption: "Train Dreams",
+        src: TrainDreams,
+        date: "January 2026",
+        rating: 5.0
+    },
+    {
+        // https://www.slashfilm.com/830900/does-fantastic-beasts-the-secrets-of-dumbledore-have-a-post-credits-scene/ 
+        width: 420,
+        height: 200,
+        caption: "Fantastic Beasts: The Secrets of Dumbledore",
+        src: SecretsOfDumbledore,
+        date: "January 2026",
+        rating: 3.0
+    },
+    {
+        // https://www.filmaffinity.com/us/movieimage.php?imageId=613800788 
+        width: 420,
+        height: 200,
+        caption: "Fantastic Beasts: The Crimes of Grindelwald",
+        src: Grindelwald,
+        date: "January 2026",
+        rating: 3.0
+    },
+    {
+        // https://www.imdb.com/title/tt1757678/mediaviewer/rm973515522/ 
+        width: 420,
+        height: 200,
+        caption: "Avatar: Fire and Ash",
+        src: Avatar3,
+        date: "January 2026",
+        rating: 3.0
+    },
+    {
+        // https://www.fandango.com/table-19-193118/movie-photos-posters 
+        width: 420,
+        height: 200,
+        caption: "Table 19",
+        src: Table19,
+        date: "December 2025",
+        rating: 2.0
+    },
+    {
+        // https://gizmodo.com/one-of-the-most-shocking-scenes-in-weapons-is-now-online-2000649400 
+        width: 420,
+        height: 200,
+        caption: "Weapons",
+        src: Weapons,
+        date: "November 2025",
+        rating: 4.0
+    },
+    {
+        // https://screenrant.com/zootopia-2-movie-trailer/
+        width: 420,
+        height: 200,
+        caption: "Zootopia 2",
+        src: Zootopia2,
+        date: "November 2025",
+        rating: 4.5
+    },
+    {
+        // https://thecriticalcritics.com/reviews/movie-review-the-substance/ 
+        width: 420,
+        height: 200,
+        caption: "The Substance",
+        src: Substance,
+        date: "September 2025",
+        rating: 4.0
+    },
+    {
+        // https://jp.pinterest.com/pin/383228249534839497/
+        width: 420,
+        height: 200,
+        caption: "Big Fish",
+        src: BigFish,
+        date: "August 2025",
+        rating: 4.0
+    },
     {
         // https://www.nytimes.com/2025/04/17/movies/sinners-review-ryan-coogler.html
         width: 420,
@@ -300,6 +452,15 @@ const filmDetails = [
         rating: 2.0
     },
     {
+        // https://www.flickeringmyth.com/sing-sing-2024-movie-review/ 
+        width: 420,
+        height: 200,
+        caption: "Sing Sing",
+        src: SingSing,
+        date: "May 2025",
+        rating: 4.5
+    },
+    {
         // https://abcnews.go.com/GMA/Culture/review-companion-fiendishly-funny-romcom-scarefest-wickedly-decadent/story?id=118268821
         width: 420,
         height: 200,
@@ -316,6 +477,15 @@ const filmDetails = [
         src: Mickey17,
         date: "March 2025",
         rating: 3.5
+    },
+    {
+        // https://www.inkl.com/news/a24-s-civil-war-trailer-looks-like-a-weaponized-panic-attack-and-that-s-exactly-why-i-can-t-wait-to-see-it 
+        width: 420,
+        height: 200,
+        caption: "Civil War",
+        src: CivilWar,
+        date: "February 2025",
+        rating: 1.5
     },
     {
         // https://www.apple.com/tv-pr/originals/the-gorge/images/
