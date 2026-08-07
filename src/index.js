@@ -6,7 +6,6 @@ import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
 import Reviews from './pages/Reviews';
 import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
 import { createRoot } from 'react-dom/client';
 
@@ -19,7 +18,6 @@ const App = () => {
               <Route exact path="/about-me" element={<AboutMe/>}/>
               <Route exact path="/reviews" element={<Reviews/>}/>
               <Route exact path="/portfolio" element={<Portfolio/>}/>
-              <Route exact path="/resume" element={<Resume/>}/>
             </Routes>
         </Router>
       );
