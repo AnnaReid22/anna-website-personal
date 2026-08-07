@@ -202,6 +202,27 @@ import F1 from '../images/filmImages/f1.jpg';
 import Hamnet from '../images/filmImages/hamnet.jpg';
 import WickedForGood from '../images/filmImages/wickedforgood.jpg';
 import TheDevilWearsPrada from '../images/filmImages/thedevilwearsprada.jpg';
+import SearchingForSugarMan from '../images/filmImages/searchingforsugarman.jpg';
+import SpiderManBrandNewDay from '../images/filmImages/spidermanbrandnewday.jpg';
+import Obsession from '../images/filmImages/obsession.jpg';
+import Odyssey from '../images/filmImages/odyssey.jpg';
+import ProjectHailMary from '../images/filmImages/projecthailmary.png';
+import GoodLuckHaveFun from '../images/filmImages/goodluckhavefundontdie.jpg';
+import MostlyMartha from '../images/filmImages/mostlymartha.jpg';
+import Arco from '../images/filmImages/arco.jpg';
+import ToyStory5 from '../images/filmImages/toystory5.jpg';
+import Passengers from '../images/filmImages/passengers.jpg';
+import DisclosureDay from '../images/filmImages/disclosureday.png';
+import Backrooms from '../images/filmImages/backrooms.jpg';
+import StarWarsMandalorian from '../images/filmImages/starwarsandalorian.jpg';
+import SentimentalValue from '../images/filmImages/sentimentalvalue.jpg';
+import OhHi from '../images/filmImages/ohhi.jpg';
+import SendHelp from '../images/filmImages/sendhelp.jpg';
+import NoOtherChoice from '../images/filmImages/nootherchoice.jpg';
+import ElCamino from '../images/filmImages/elcamino.jpg';
+import HouseOfDynamite from '../images/filmImages/houseofdynamite.jpg';
+import TheSmashingMachine from '../images/filmImages/smashingmachine.jpg';
+
 
 import {Gallery} from 'react-grid-gallery';
 import ReactStars from "react-rating-stars-component";
@@ -226,6 +247,168 @@ const customStyles = {
 };
 
 const filmDetails = [
+    {
+        // https://newatlas.com/searching-for-sugar-man-iphone-oscar/26400/ 
+        width: 420,
+        height: 200,
+        caption: "Searching for Sugar Man",
+        src: SearchingForSugarMan,
+        date: "August 2026",
+        rating: 4.0
+    },
+    {
+        // https://biggoldbelt.com/reviews/movie-reviews/obsession-2026-movie-review/ 
+        width: 420,
+        height: 200,
+        caption: "Spider-Man: Brand New Day",
+        src: SpiderManBrandNewDay,
+        date: "August 2026",
+        rating: 5.0
+    },
+    {
+        // https://biggoldbelt.com/reviews/movie-reviews/obsession-2026-movie-review/ 
+        width: 420,
+        height: 200,
+        caption: "Obsession",
+        src: Obsession,
+        date: "July 2026",
+        rating: 4.0
+    },
+    {
+        // https://consequence.net/2025/12/the-odyssey-trailer-christopher-nolan/ 
+        width: 420,
+        height: 200,
+        caption: "Odyssey",
+        src: Odyssey,
+        date: "July 2026",
+        rating: 3.5
+    },
+    {
+        // https://nocontextculture.com/project-hail-mary-movie-rocky-adaptation-review/ 
+        width: 420,
+        height: 200,
+        caption: "Project Hail Mary",
+        src: ProjectHailMary,
+        date: "July 2026",
+        rating: 5.0
+    },
+    {
+        // https://www.yardbarker.com/entertainment/articles/good_luck_have_fun_dont_die_trailer_promises_an_absurd_apocalypse_adventure/s1_17316_43055743 
+        width: 420,
+        height: 200,
+        caption: "Good Luck, Have Fun, Don't Die",
+        src: GoodLuckHaveFun,
+        date: "July 2026",
+        rating: 2.0
+    },
+    {
+        // https://www.imdb.com/title/tt0246772/mediaviewer/rm1160878080/ 
+        width: 420,
+        height: 200,
+        caption: "Mostly Martha",
+        src: MostlyMartha,
+        date: "July 2026",
+        rating: 4.5
+    },
+    {
+        // https://www.indiewire.com/criticism/movies/g20-review-viola-davis-action-1235114061/ 
+        width: 420,
+        height: 200,
+        caption: "Arco",
+        src: Arco,
+        date: "June 2026",
+        rating: 4.0
+    },
+    {
+        // https://www.movieinsider.com/photos/934714 
+        width: 420,
+        height: 200,
+        caption: "Toy Story 5",
+        src: ToyStory5,
+        date: "June 2026",
+        rating: 4.0
+    },
+    {
+        // https://drgiii.com/film/2019/1/20/film-review-passengers 
+        width: 420,
+        height: 200,
+        caption: "Passengers",
+        src: Passengers,
+        date: "June 2026",
+        rating: 2.0
+    },
+    {
+        // https://www.movieinsider.com/photos/944923 
+        width: 420,
+        height: 200,
+        caption: "Disclosure Day",
+        src: DisclosureDay,
+        date: "June 2026",
+        rating: 1.0
+    },
+    {
+        // https://search.ch/kino/Backrooms/2026-06-20 
+        width: 420,
+        height: 200,
+        caption: "Backrooms",
+        src: Backrooms,
+        date: "June 2026",
+        rating: 4.0
+    },
+    {
+        // https://www.fantasylandnews.com/2026/02/16/the-mandalorian-and-grogu-trailer-coming-tomorrow-from-star-wars/ 
+        width: 420,
+        height: 200,
+        caption: "Star Wars: The Mandalorian and Grogu",
+        src: StarWarsMandalorian,
+        date: "May 2026",
+        rating: 3.0
+    },
+    {
+        // https://www.leconfieldhall.org.uk/events/sentimental-value 
+        width: 420,
+        height: 200,
+        caption: "Sentimental Value",
+        src: SentimentalValue,
+        date: "May 2026",
+        rating: 3.5
+    },
+    {
+        // https://thisisforreel.com/home/tribeca-2025-movie-review-oh-hi-starts-strong-but-comes-undone 
+        width: 420,
+        height: 200,
+        caption: "Oh, Hi!",
+        src: OhHi,
+        date: "May 2026",
+        rating: 2.0
+    },
+    {
+        // https://www.filmaffinity.com/us/movieimage.php?imageId=437487832 
+        width: 420,
+        height: 200,
+        caption: "Send Help",
+        src: SendHelp,
+        date: "May 2026",
+        rating: 4.0
+    },
+    {
+        // https://www.cinemadevlugt.nl/film/no-other-choice/ 
+        width: 420,
+        height: 200,
+        caption: "No Other Choice",
+        src: NoOtherChoice,
+        date: "May 2026",
+        rating: 3.5
+    },
+    {
+        // https://www.tvguide.com/galleries/el-camino-a-breaking-bad-movie-easter-eggs-and-character-cameos/ 
+        width: 420,
+        height: 200,
+        caption: "El Camino",
+        src: ElCamino,
+        date: "May 2026",
+        rating: 4.0
+    },
     {
         // https://movieweb.com/tag/movie/the-devil-wears-prada/  
         width: 420,
@@ -270,6 +453,24 @@ const filmDetails = [
         src: F1,
         date: "March 2026",
         rating: 3.5
+    },
+    {
+        // https://www.nme.com/news/film/a-house-of-dynamite-ending-explained-does-idris-elbas-president-retaliate-to-the-nuclear-attack-3904272
+        width: 420,
+        height: 200,
+        caption: "House of Dynamite",
+        src: HouseOfDynamite,
+        date: "February 2026",
+        rating: 3.5
+    },
+    {
+        // https://www.mmafighting.com/ufc/467227/the-smashing-machine-earns-single-oscar-nomination-dwayne-johnson-shut-out
+        width: 420,
+        height: 200,
+        caption: "The Smashing Machine",
+        src: TheSmashingMachine,
+        date: "February 2026",
+        rating: 1
     },
     {
         // https://www.newsweek.com/entertainment/movies/one-battle-after-another-everything-we-know-trailer-release-date-2052904 
