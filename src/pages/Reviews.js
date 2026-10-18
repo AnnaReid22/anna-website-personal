@@ -222,7 +222,13 @@ import NoOtherChoice from '../images/filmImages/nootherchoice.jpg';
 import ElCamino from '../images/filmImages/elcamino.jpg';
 import HouseOfDynamite from '../images/filmImages/houseofdynamite.jpg';
 import TheSmashingMachine from '../images/filmImages/smashingmachine.jpg';
-
+import Nirvana from '../images/filmImages/nirvana.png';
+import WrongParis from '../images/filmImages/wrongparis.jpg';
+import ReadyOrNot from '../images/filmImages/readyornot.jpg';
+import Roofman from '../images/filmImages/roofman.jpg';
+import K2 from '../images/filmImages/k2.jpg';
+import TheWatch from '../images/filmImages/thewatch.jpg';
+// new
 
 import {Gallery} from 'react-grid-gallery';
 import ReactStars from "react-rating-stars-component";
@@ -247,6 +253,62 @@ const customStyles = {
 };
 
 const filmDetails = [
+    // new
+    {
+        // https://theplaylist.net/watch-ben-stiller-vince-vaughn-jonah-hill-richard-ayoade-are-still-d-r-e-in-teaser-for-neighborhood-watch-20120229/
+        width: 420,
+        height: 200,
+        caption: "The Watch",
+        src: TheWatch,
+        date: "October 2026",
+        rating: 2.0
+    },
+    {
+        // https://www.msn.com/en-us/entertainment/movies/the-last-first-winter-k2-review-sundance-doc-tragically-depicts-the-last-frontier-of-mountaineering-in-harrowing-detail/ar-AA1UN9p1
+        width: 420,
+        height: 200,
+        caption: "The Last First: Winter K2",
+        src: K2,
+        date: "October 2026",
+        rating: 4.0
+    },
+    {
+        // https://www.moviefone.com/movie/roofman/yoa2uNYfBCRhyxhyYwjYK5/videos/UGybwZEc/
+        width: 420,
+        height: 200,
+        caption: "Roofman",
+        src: Roofman,
+        date: "October 2026",
+        rating: 3.5
+    },
+    {
+        // https://collider.com/best-2010s-comedy-movies-ranked/
+        width: 420,
+        height: 200,
+        caption: "Ready Or Not",
+        src: ReadyOrNot,
+        date: "September 2026",
+        rating: 4.0
+    },
+    {
+        // https://www.nytimes.com/2025/09/12/movies/the-wrong-paris-review.html
+        width: 420,
+        height: 200,
+        caption: "The Wrong Paris",
+        src: WrongParis,
+        date: "August 2026",
+        rating: 3.5
+    },
+    {
+        // https://miconfilm.com/nirvanna-the-band-the-show-the-movie/
+        width: 420,
+        height: 200,
+        caption: "Nirvana the Band the Show",
+        src: Nirvana,
+        date: "August 2026",
+        rating: 3.5
+    },
+    // new
     {
         // https://newatlas.com/searching-for-sugar-man-iphone-oscar/26400/ 
         width: 420,
